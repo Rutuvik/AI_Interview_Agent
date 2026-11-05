@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ivenv/
+cvenv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+dist/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Model binaries
+*.onnx
+*.bin
+
+# Generated audio and logs
+*.wav
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
