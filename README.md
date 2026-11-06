@@ -117,22 +117,6 @@ flowchart TB
 | Pydantic | Structured data validation |
 | SQLAlchemy | Database operations and persistence |
 | Database | Interview state and assessment data storage |
-## Technology Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | React, TypeScript, Vite |
-| Backend API | Python, FastAPI |
-| Real-Time Voice | LiveKit Agents |
-| Speech-to-Text | Local Whisper integration |
-| Voice Activity Detection | Silero VAD |
-| Text-to-Speech | Local Kokoro integration |
-| LLM Runtime | Ollama |
-| Voice-Agent Model | `gemma3:4b` |
-| Workflow Orchestration | LangGraph |
-| Data Validation | Pydantic |
-| Persistence | SQLAlchemy with configured async database |
-| Testing | pytest |
 
 ## How It Works
 
