@@ -25,6 +25,30 @@ It accepts a candidate profile, job description, required skills, and interview 
 - **Evidence-Based Feedback:** Identifies strengths, weaknesses, missing concepts, incorrect claims, answer evidence, and suggested improvements.
 - **Assessment Reports:** Provides overall and skill-wise results, knowledge gaps, and learning recommendations.
 
+## Project Structure
+
+```text
+AI_Interview_Agent/
+│
+├── backend/
+│   ├── app/
+│   ├── tests/
+│   ├── requirements.txt
+│   └── ...
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+│
+├── docs/
+│
+├── demo/
+│   └── complete_interview_demo.mp4
+│
+├── README.md
+└── .gitignore
+```
 ## Technology Stack
 
 | Layer | Technology |
