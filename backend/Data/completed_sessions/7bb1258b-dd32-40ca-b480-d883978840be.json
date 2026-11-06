@@ -1,0 +1,589 @@
+{
+    "id": "7bb1258b-dd32-40ca-b480-d883978840be",
+    "candidate_name": "Rutvik",
+    "status": "completed",
+    "state_data": {
+        "session_id": "7bb1258b-dd32-40ca-b480-d883978840be",
+        "candidate_name": "Rutvik",
+        "candidate_profile": "AI Engineer Intern with practical experience in Python, machine learning, and generative AI. Built advanced RAG pipelines using hybrid retrieval, vector databases, embeddings, and reranking. Developed AI applications using LangChain, LangGraph, and FastAPI. Experienced in LLM integration, prompt engineering, workflow automation, and REST APIs.",
+        "job_description": "We are hiring an AI Engineer skilled in Python, machine learning, deep learning, NLP, LLMs, RAG, LangChain, LangGraph, FastAPI, and REST API development. The candidate should have experience building AI applications, integrating models, and evaluating system performance.",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "NLP",
+            "LLMs",
+            "RAG",
+            "LangChain",
+            "LangGraph",
+            "FastAPI"
+        ],
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "Design a Python function that takes a list of integers and returns a new list containing only the even numbers from the original list. Explain how you would implement this function and discuss any potential edge cases you would need to consider.",
+                "skill": "Python",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Function implementation",
+                    "Edge cases handling"
+                ],
+                "evaluation_criteria": [
+                    "Correctness of the implementation",
+                    "Clarity and completeness of the explanation"
+                ]
+            },
+            {
+                "question": "Develop a Python script that integrates a Natural Language Processing (NLP) model with a FastAPI backend. The script should preprocess text inputs, run the NLP model, and return the processed data in a JSON response. How would you ensure the model is being used efficiently and what are the potential performance bottlenecks?",
+                "skill": "Python, NLP, FastAPI",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Model integration",
+                    "Performance optimization",
+                    "Model usage considerations"
+                ],
+                "evaluation_criteria": [
+                    "Efficiency of the model usage",
+                    "Handling of potential performance bottlenecks"
+                ]
+            },
+            {
+                "question": "Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings. Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application. What are some common challenges you might encounter during deployment and how would you mitigate them?",
+                "skill": "Python, RAG, NLP",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "RAG pipeline design",
+                    "Benefits and drawbacks",
+                    "Deployment challenges"
+                ],
+                "evaluation_criteria": [
+                    "Accuracy and efficiency of the pipeline",
+                    "Mitigation of deployment challenges"
+                ]
+            }
+        ],
+        "current_question_index": 3,
+        "max_questions": 3,
+        "current_question": null,
+        "candidate_answer": "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings. Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application. What are some common challenges you might encounter during deployment and how would you mitigate them?\nCandidate answer: It's the remedy.\n\nFollow-up question: The candidate stated 'It's the remedy.' This is a very brief response. Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?\nCandidate response: Okay, I'm going to do it.\n\nFollow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database? Specifically, what considerations drove your decision, and what are the trade-offs you'd be weighing?\nCandidate response: album",
+        "current_evaluation": {
+            "evaluation": {
+                "technical_correctness": {
+                    "score": 4,
+                    "justification": "The candidate did not provide any detailed information about the RAG pipeline design, its key components, or the choice of vector database. They also did not discuss benefits and drawbacks, nor did they mention deployment challenges and mitigation strategies.",
+                    "evidence": [
+                        "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                        "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                        "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                        "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                        "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                    ]
+                },
+                "conceptual_understanding": {
+                    "score": 4,
+                    "justification": "The candidate’s answer was largely incoherent and did not provide the necessary details to demonstrate a clear understanding of the RAG pipeline design, its components, benefits and drawbacks, and deployment challenges.",
+                    "evidence": [
+                        "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                        "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                        "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                        "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                        "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                    ]
+                },
+                "completeness": {
+                    "score": 5,
+                    "justification": "Completeness calculated from deterministic expected-point coverage.",
+                    "evidence": [
+                        "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                        "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                        "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                        "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                        "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                    ]
+                },
+                "expected_point_evaluations": [
+                    {
+                        "expected_point": "RAG pipeline design",
+                        "status": "covered",
+                        "evidence": [
+                            "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                            "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                            "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?"
+                        ],
+                        "explanation": "Deterministic rubric matching identified covered coverage."
+                    },
+                    {
+                        "expected_point": "Benefits and drawbacks",
+                        "status": "covered",
+                        "evidence": [
+                            "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application."
+                        ],
+                        "explanation": "Deterministic rubric matching identified covered coverage."
+                    },
+                    {
+                        "expected_point": "Deployment challenges",
+                        "status": "covered",
+                        "evidence": [
+                            "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                        ],
+                        "explanation": "Deterministic rubric matching identified covered coverage."
+                    }
+                ],
+                "strengths": [],
+                "weaknesses": [
+                    "Lack of detailed explanation of the RAG pipeline design, its components, and the choice of vector database.",
+                    "Failure to discuss benefits and drawbacks of using such a pipeline in an AI application.",
+                    "No mention of common challenges encountered during deployment and how to mitigate them.",
+                    "Very brief and unclear response that did not meet the expected points."
+                ],
+                "missing_concepts": [],
+                "incorrect_claims": [],
+                "suggested_improvements": [
+                    "Provide a detailed explanation of the RAG pipeline design, including its key components and the choice of vector database.",
+                    "Discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                    "Outline common challenges encountered during deployment and propose mitigation strategies.",
+                    "Expand on the design of the RAG pipeline and the chosen vector database to include more details."
+                ]
+            },
+            "overall_score": 4.33
+        },
+        "conversation_history": [
+            {
+                "role": "interviewer",
+                "content": "Design a Python function that takes a list of integers and returns a new list containing only the even numbers from the original list. Explain how you would implement this function and discuss any potential edge cases you would need to consider.",
+                "question_index": 0
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: Design a Python function that takes a list of integers and returns a new list containing only the even numbers from the original list. Explain how you would implement this function and discuss any potential edge cases you would need to consider.\nCandidate answer: I wouldn't move on to all these things that no one else could show.\n\nFollow-up question: Could you outline the steps involved in writing the Python function, including the code structure and any specific techniques you'd use to filter the even numbers? Specifically, how would you handle the case where the input list is empty?\nCandidate response: I'll give it to him, and I don't want to spread it.\n\nFollow-up question: The candidate's initial response is extremely vague and doesn't address the core task. It's clear they are struggling to articulate a plan. Let's try to get them started. Could you describe the basic steps you would take to create this function, starting with how you would initialize an empty list and then iterate through the input list?\nCandidate response: I built an advanced track to check the era of world console and books and technologies.  The basic era to check is a bit out-of-the-sponsored from the knowledge base.  Well, I first got to make the video down then do a little jump after that, uh, I'm not  giving you any feelings, and I used to hide with the search, uh, hide with the link in my  link."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 3,
+                            "justification": "The candidate did not provide any function implementation or describe how they would filter even numbers from the input list. They only mentioned discussing edge cases but did not provide a clear plan for the implementation.",
+                            "evidence": [
+                                "Explain how you would implement this function and discuss any potential edge cases you would need to consider."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 3,
+                            "justification": "The candidate did not demonstrate a clear understanding of how to implement the function to filter even numbers from the input list. They only mentioned discussing edge cases but did not provide a concrete plan for the function implementation.",
+                            "evidence": [
+                                "Explain how you would implement this function and discuss any potential edge cases you would need to consider."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 4,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Explain how you would implement this function and discuss any potential edge cases you would need to consider."
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Function implementation",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Edge cases handling",
+                                "status": "covered",
+                                "evidence": [
+                                    "Explain how you would implement this function and discuss any potential edge cases you would need to consider."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "The candidate did not provide any function implementation or describe how they would filter even numbers from the input list.",
+                            "The candidate only mentioned discussing edge cases but did not provide a clear plan for the function implementation."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide a clear function implementation that filters even numbers from the input list and discuss the steps involved in creating the function.",
+                            "The candidate should provide a detailed explanation of how they would handle potential edge cases when implementing the function."
+                        ]
+                    },
+                    "overall_score": 3.33
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "Develop a Python script that integrates a Natural Language Processing (NLP) model with a FastAPI backend. The script should preprocess text inputs, run the NLP model, and return the processed data in a JSON response. How would you ensure the model is being used efficiently and what are the potential performance bottlenecks?",
+                "question_index": 1
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: Develop a Python script that integrates a Natural Language Processing (NLP) model with a FastAPI backend. The script should preprocess text inputs, run the NLP model, and return the processed data in a JSON response. How would you ensure the model is being used efficiently and what are the potential performance bottlenecks?\nCandidate answer: where I will come deep search and know what the hell it is.\n\nFollow-up question: The candidate's initial response is extremely vague. Let's delve deeper. Can you outline a high-level architecture for this integration, including the specific components you would use and why you chose them? Specifically, how would you handle the preprocessing step and the interaction between the FastAPI backend and the NLP model?\nCandidate response: So\n\nFollow-up question: Given your experience with RAG pipelines and LangChain, could you elaborate on how you would approach the preprocessing step? Specifically, what techniques would you consider for cleaning and preparing the text data for the NLP model, and how would you integrate those techniques into your architecture?\nCandidate response: Hey, Moon."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 2,
+                            "justification": "The candidate did not provide any technical details about model integration, performance optimization, or model usage considerations. They focused on the architecture without addressing the technical aspects.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 2,
+                            "justification": "The candidate did not demonstrate a clear understanding of the technical aspects of model integration, performance optimization, or model usage considerations. They provided vague information about preprocessing and integration without delving into specific techniques or mechanisms.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 2,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Model integration",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Performance optimization",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Model usage considerations",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "The candidate did not provide any technical details about how to preprocess text, integrate the FastAPI backend with the NLP model, or optimize performance.",
+                            "The candidate did not discuss any potential performance bottlenecks or how to address them.",
+                            "The candidate did not mention any considerations regarding model usage, such as handling large datasets, or ensuring the model's efficiency and reliability."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide specific technical details and techniques for preprocessing text, integrating the FastAPI backend with the NLP model, and optimizing performance.",
+                            "The candidate should address potential performance bottlenecks and how to mitigate them.",
+                            "The candidate should discuss considerations for model usage, such as handling large datasets, ensuring the model's efficiency and reliability, and potential overfitting or underfitting issues."
+                        ]
+                    },
+                    "overall_score": 2.0
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings. Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application. What are some common challenges you might encounter during deployment and how would you mitigate them?",
+                "question_index": 2
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings. Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application. What are some common challenges you might encounter during deployment and how would you mitigate them?\nCandidate answer: It's the remedy.\n\nFollow-up question: The candidate stated 'It's the remedy.' This is a very brief response. Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?\nCandidate response: Okay, I'm going to do it.\n\nFollow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database? Specifically, what considerations drove your decision, and what are the trade-offs you'd be weighing?\nCandidate response: album"
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 4,
+                            "justification": "The candidate did not provide any detailed information about the RAG pipeline design, its key components, or the choice of vector database. They also did not discuss benefits and drawbacks, nor did they mention deployment challenges and mitigation strategies.",
+                            "evidence": [
+                                "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                                "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                                "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                                "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                                "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 4,
+                            "justification": "The candidate’s answer was largely incoherent and did not provide the necessary details to demonstrate a clear understanding of the RAG pipeline design, its components, benefits and drawbacks, and deployment challenges.",
+                            "evidence": [
+                                "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                                "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                                "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                                "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                                "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                            ]
+                        },
+                        "completeness": {
+                            "score": 5,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                                "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                                "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                                "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                                "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "RAG pipeline design",
+                                "status": "covered",
+                                "evidence": [
+                                    "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                                    "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                                    "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Benefits and drawbacks",
+                                "status": "covered",
+                                "evidence": [
+                                    "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Deployment challenges",
+                                "status": "covered",
+                                "evidence": [
+                                    "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "Lack of detailed explanation of the RAG pipeline design, its components, and the choice of vector database.",
+                            "Failure to discuss benefits and drawbacks of using such a pipeline in an AI application.",
+                            "No mention of common challenges encountered during deployment and how to mitigate them.",
+                            "Very brief and unclear response that did not meet the expected points."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Provide a detailed explanation of the RAG pipeline design, including its key components and the choice of vector database.",
+                            "Discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                            "Outline common challenges encountered during deployment and propose mitigation strategies.",
+                            "Expand on the design of the RAG pipeline and the chosen vector database to include more details."
+                        ]
+                    },
+                    "overall_score": 4.33
+                }
+            }
+        ],
+        "answers": [
+            {
+                "question": "Design a Python function that takes a list of integers and returns a new list containing only the even numbers from the original list. Explain how you would implement this function and discuss any potential edge cases you would need to consider.",
+                "answer": "Main question: Design a Python function that takes a list of integers and returns a new list containing only the even numbers from the original list. Explain how you would implement this function and discuss any potential edge cases you would need to consider.\nCandidate answer: I wouldn't move on to all these things that no one else could show.\n\nFollow-up question: Could you outline the steps involved in writing the Python function, including the code structure and any specific techniques you'd use to filter the even numbers? Specifically, how would you handle the case where the input list is empty?\nCandidate response: I'll give it to him, and I don't want to spread it.\n\nFollow-up question: The candidate's initial response is extremely vague and doesn't address the core task. It's clear they are struggling to articulate a plan. Let's try to get them started. Could you describe the basic steps you would take to create this function, starting with how you would initialize an empty list and then iterate through the input list?\nCandidate response: I built an advanced track to check the era of world console and books and technologies.  The basic era to check is a bit out-of-the-sponsored from the knowledge base.  Well, I first got to make the video down then do a little jump after that, uh, I'm not  giving you any feelings, and I used to hide with the search, uh, hide with the link in my  link.",
+                "question_index": 0
+            },
+            {
+                "question": "Develop a Python script that integrates a Natural Language Processing (NLP) model with a FastAPI backend. The script should preprocess text inputs, run the NLP model, and return the processed data in a JSON response. How would you ensure the model is being used efficiently and what are the potential performance bottlenecks?",
+                "answer": "Main question: Develop a Python script that integrates a Natural Language Processing (NLP) model with a FastAPI backend. The script should preprocess text inputs, run the NLP model, and return the processed data in a JSON response. How would you ensure the model is being used efficiently and what are the potential performance bottlenecks?\nCandidate answer: where I will come deep search and know what the hell it is.\n\nFollow-up question: The candidate's initial response is extremely vague. Let's delve deeper. Can you outline a high-level architecture for this integration, including the specific components you would use and why you chose them? Specifically, how would you handle the preprocessing step and the interaction between the FastAPI backend and the NLP model?\nCandidate response: So\n\nFollow-up question: Given your experience with RAG pipelines and LangChain, could you elaborate on how you would approach the preprocessing step? Specifically, what techniques would you consider for cleaning and preparing the text data for the NLP model, and how would you integrate those techniques into your architecture?\nCandidate response: Hey, Moon.",
+                "question_index": 1
+            },
+            {
+                "question": "Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings. Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application. What are some common challenges you might encounter during deployment and how would you mitigate them?",
+                "answer": "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings. Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application. What are some common challenges you might encounter during deployment and how would you mitigate them?\nCandidate answer: It's the remedy.\n\nFollow-up question: The candidate stated 'It's the remedy.' This is a very brief response. Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?\nCandidate response: Okay, I'm going to do it.\n\nFollow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database? Specifically, what considerations drove your decision, and what are the trade-offs you'd be weighing?\nCandidate response: album",
+                "question_index": 2
+            }
+        ],
+        "evaluations": [
+            {
+                "question_index": 0,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 3,
+                        "justification": "The candidate did not provide any function implementation or describe how they would filter even numbers from the input list. They only mentioned discussing edge cases but did not provide a clear plan for the implementation.",
+                        "evidence": [
+                            "Explain how you would implement this function and discuss any potential edge cases you would need to consider."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 3,
+                        "justification": "The candidate did not demonstrate a clear understanding of how to implement the function to filter even numbers from the input list. They only mentioned discussing edge cases but did not provide a concrete plan for the function implementation.",
+                        "evidence": [
+                            "Explain how you would implement this function and discuss any potential edge cases you would need to consider."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Explain how you would implement this function and discuss any potential edge cases you would need to consider."
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Function implementation",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Edge cases handling",
+                            "status": "covered",
+                            "evidence": [
+                                "Explain how you would implement this function and discuss any potential edge cases you would need to consider."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "The candidate did not provide any function implementation or describe how they would filter even numbers from the input list.",
+                        "The candidate only mentioned discussing edge cases but did not provide a clear plan for the function implementation."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide a clear function implementation that filters even numbers from the input list and discuss the steps involved in creating the function.",
+                        "The candidate should provide a detailed explanation of how they would handle potential edge cases when implementing the function."
+                    ]
+                },
+                "overall_score": 3.33
+            },
+            {
+                "question_index": 1,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 2,
+                        "justification": "The candidate did not provide any technical details about model integration, performance optimization, or model usage considerations. They focused on the architecture without addressing the technical aspects.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 2,
+                        "justification": "The candidate did not demonstrate a clear understanding of the technical aspects of model integration, performance optimization, or model usage considerations. They provided vague information about preprocessing and integration without delving into specific techniques or mechanisms.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Model integration",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Performance optimization",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Model usage considerations",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "The candidate did not provide any technical details about how to preprocess text, integrate the FastAPI backend with the NLP model, or optimize performance.",
+                        "The candidate did not discuss any potential performance bottlenecks or how to address them.",
+                        "The candidate did not mention any considerations regarding model usage, such as handling large datasets, or ensuring the model's efficiency and reliability."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide specific technical details and techniques for preprocessing text, integrating the FastAPI backend with the NLP model, and optimizing performance.",
+                        "The candidate should address potential performance bottlenecks and how to mitigate them.",
+                        "The candidate should discuss considerations for model usage, such as handling large datasets, ensuring the model's efficiency and reliability, and potential overfitting or underfitting issues."
+                    ]
+                },
+                "overall_score": 2.0
+            },
+            {
+                "question_index": 2,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 4,
+                        "justification": "The candidate did not provide any detailed information about the RAG pipeline design, its key components, or the choice of vector database. They also did not discuss benefits and drawbacks, nor did they mention deployment challenges and mitigation strategies.",
+                        "evidence": [
+                            "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                            "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                            "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                            "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                            "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 4,
+                        "justification": "The candidate’s answer was largely incoherent and did not provide the necessary details to demonstrate a clear understanding of the RAG pipeline design, its components, benefits and drawbacks, and deployment challenges.",
+                        "evidence": [
+                            "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                            "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                            "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                            "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                            "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                        ]
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                            "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                            "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?",
+                            "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                            "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "RAG pipeline design",
+                            "status": "covered",
+                            "evidence": [
+                                "Main question: Design a RAG (Retrieval-Augmented Generation) pipeline using vector databases and embeddings.",
+                                "Could you elaborate on the core components of a RAG pipeline you would design, and specifically, what type of vector database you would choose and why?",
+                                "Follow-up question: Could you outline the key components of a RAG pipeline and explain your choice of vector database?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Benefits and drawbacks",
+                            "status": "covered",
+                            "evidence": [
+                                "Explain how you would set up and configure the pipeline, and discuss the benefits and drawbacks of using such a pipeline in an AI application."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Deployment challenges",
+                            "status": "covered",
+                            "evidence": [
+                                "What are some common challenges you might encounter during deployment and how would you mitigate them?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "Lack of detailed explanation of the RAG pipeline design, its components, and the choice of vector database.",
+                        "Failure to discuss benefits and drawbacks of using such a pipeline in an AI application.",
+                        "No mention of common challenges encountered during deployment and how to mitigate them.",
+                        "Very brief and unclear response that did not meet the expected points."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Provide a detailed explanation of the RAG pipeline design, including its key components and the choice of vector database.",
+                        "Discuss the benefits and drawbacks of using such a pipeline in an AI application.",
+                        "Outline common challenges encountered during deployment and propose mitigation strategies.",
+                        "Expand on the design of the RAG pipeline and the chosen vector database to include more details."
+                    ]
+                },
+                "overall_score": 4.33
+            }
+        ],
+        "interview_status": "completed",
+        "next_action": "finish",
+        "error_message": null
+    },
+    "created_at": "2026-11-04 13:17:25.102570",
+    "updated_at": "2026-11-04 13:26:19.206315"
+}

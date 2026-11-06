@@ -1,0 +1,495 @@
+{
+    "id": "199b404d-a074-4e2d-8322-a491bc60b875",
+    "candidate_name": "Rutvik",
+    "status": "completed",
+    "state_data": {
+        "session_id": "199b404d-a074-4e2d-8322-a491bc60b875",
+        "candidate_name": "Rutvik",
+        "questions": [
+            {
+                "question": "Can you provide an example of using Python to preprocess a text dataset for NLP tasks, such as tokenization and removing stop words?",
+                "skill": "Python",
+                "difficulty": "easy",
+                "expected_answer_points": [
+                    "Tokenization of text",
+                    "Removing stop words"
+                ],
+                "evaluation_criteria": [
+                    "Correct implementation of tokenization functions.",
+                    "Correct removal of stop words using a predefined list or library."
+                ]
+            },
+            {
+                "question": "How would you implement a simple REST API using FastAPI that returns the top 5 search results from a vector database (e.g., FAISS) based on user input?",
+                "skill": "FastAPI",
+                "difficulty": "easy",
+                "expected_answer_points": [
+                    "Using FastAPI to create an endpoint",
+                    "Implementing a query function to search the vector database",
+                    "Returning the top 5 search results to the client"
+                ],
+                "evaluation_criteria": [
+                    "Correct endpoint creation.",
+                    "Functionality to query the vector database and retrieve results.",
+                    "Proper response format to client."
+                ]
+            },
+            {
+                "question": "Explain how you would evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity, and how you would use these metrics to improve the model.",
+                "skill": "Machine Learning, NLP",
+                "difficulty": "easy",
+                "expected_answer_points": [
+                    "Metrics for evaluating generative AI models",
+                    "Understanding BLEU score and perplexity",
+                    "Improving the model based on evaluation metrics"
+                ],
+                "evaluation_criteria": [
+                    "Correct identification and explanation of BLEU score and perplexity.",
+                    "Knowledge of how to calculate these metrics.",
+                    "Strategies for improving the model based on the evaluation results."
+                ]
+            }
+        ],
+        "current_question_index": 3,
+        "max_questions": 3,
+        "current_question": null,
+        "candidate_answer": "Can you please ask me to listen?",
+        "current_evaluation": {
+            "evaluation": {
+                "technical_correctness": {
+                    "score": 0,
+                    "justification": "The candidate did not provide any detailed explanation of how to evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity. They also did not explain how these metrics can be used to improve the model.",
+                    "evidence": []
+                },
+                "conceptual_understanding": {
+                    "score": 0,
+                    "justification": "The candidate did not provide any clear or detailed understanding of BLEU score and perplexity, nor did they discuss strategies for improving the model based on evaluation results.",
+                    "evidence": []
+                },
+                "completeness": {
+                    "score": 0,
+                    "justification": "Completeness calculated from deterministic expected-point coverage.",
+                    "evidence": []
+                },
+                "expected_point_evaluations": [
+                    {
+                        "expected_point": "Metrics for evaluating generative AI models",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Understanding BLEU score and perplexity",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Improving the model based on evaluation metrics",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    }
+                ],
+                "strengths": [],
+                "weaknesses": [
+                    "Metrics for evaluating generative AI models",
+                    "Understanding BLEU score and perplexity",
+                    "Improving the model based on evaluation metrics",
+                    "Lack of explanation on how to evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity.",
+                    "Lack of understanding of how these metrics can be used to improve the model."
+                ],
+                "missing_concepts": [
+                    "Metrics for evaluating generative AI models",
+                    "Understanding BLEU score and perplexity",
+                    "Improving the model based on evaluation metrics"
+                ],
+                "incorrect_claims": [],
+                "suggested_improvements": [
+                    "Provide a clear explanation of how to calculate and interpret BLEU score and perplexity.",
+                    "Discuss strategies for improving the model based on the evaluation results, such as fine-tuning the model, adjusting hyperparameters, or using different metrics."
+                ]
+            },
+            "overall_score": 0.0
+        },
+        "conversation_history": [
+            {
+                "role": "interviewer",
+                "content": "Can you provide an example of using Python to preprocess a text dataset for NLP tasks, such as tokenization and removing stop words?",
+                "question_index": 0
+            },
+            {
+                "role": "candidate",
+                "content": "And I put out photoconagious number of you,  Scott Ford's Aubius."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 1,
+                            "justification": "The candidate did not provide any code or relevant information about tokenization or stop word removal. The provided text is unrelated to the task.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 1,
+                            "justification": "The candidate did not demonstrate any technical understanding of tokenization or stop word removal. The provided text is irrelevant and does not indicate any knowledge of NLP preprocessing.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 1,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Tokenization of text",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Removing stop words",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "Removing stop words",
+                            "The candidate did not provide any code or information related to tokenization or stop word removal."
+                        ],
+                        "missing_concepts": [
+                            "Removing stop words"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Provide a Python code snippet for tokenization and stop word removal as part of an NLP preprocessing pipeline."
+                        ]
+                    },
+                    "overall_score": 1.0
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "How would you implement a simple REST API using FastAPI that returns the top 5 search results from a vector database (e.g., FAISS) based on user input?",
+                "question_index": 1
+            },
+            {
+                "role": "candidate",
+                "content": "And we're going to be talking to new friends, friends."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 1,
+                            "justification": "The candidate did not provide any information about how to implement the REST API using FastAPI and to query a vector database to return the top 5 search results. They only talked about embedding and retrieval, which is not relevant to the question.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 1,
+                            "justification": "The candidate did not demonstrate any knowledge about how to create a FastAPI endpoint or how to implement a query function to search a vector database. They also did not mention the response format to the client.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 2,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Using FastAPI to create an endpoint",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Implementing a query function to search the vector database",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Returning the top 5 search results to the client",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "Returning the top 5 search results to the client"
+                        ],
+                        "missing_concepts": [
+                            "Returning the top 5 search results to the client"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Provide a clear and concise description of how to create a FastAPI endpoint.",
+                            "Explain how to implement a query function to search a vector database, such as using FAISS.",
+                            "Describe the expected response format for the client."
+                        ]
+                    },
+                    "overall_score": 1.33
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "Explain how you would evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity, and how you would use these metrics to improve the model.",
+                "question_index": 2
+            },
+            {
+                "role": "candidate",
+                "content": "Can you please ask me to listen?"
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "The candidate did not provide any detailed explanation of how to evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity. They also did not explain how these metrics can be used to improve the model.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "The candidate did not provide any clear or detailed understanding of BLEU score and perplexity, nor did they discuss strategies for improving the model based on evaluation results.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Metrics for evaluating generative AI models",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Understanding BLEU score and perplexity",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Improving the model based on evaluation metrics",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "Metrics for evaluating generative AI models",
+                            "Understanding BLEU score and perplexity",
+                            "Improving the model based on evaluation metrics",
+                            "Lack of explanation on how to evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity.",
+                            "Lack of understanding of how these metrics can be used to improve the model."
+                        ],
+                        "missing_concepts": [
+                            "Metrics for evaluating generative AI models",
+                            "Understanding BLEU score and perplexity",
+                            "Improving the model based on evaluation metrics"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Provide a clear explanation of how to calculate and interpret BLEU score and perplexity.",
+                            "Discuss strategies for improving the model based on the evaluation results, such as fine-tuning the model, adjusting hyperparameters, or using different metrics."
+                        ]
+                    },
+                    "overall_score": 0.0
+                }
+            }
+        ],
+        "answers": [
+            {
+                "question": "Can you provide an example of using Python to preprocess a text dataset for NLP tasks, such as tokenization and removing stop words?",
+                "answer": "And I put out photoconagious number of you,  Scott Ford's Aubius.",
+                "question_index": 0
+            },
+            {
+                "question": "How would you implement a simple REST API using FastAPI that returns the top 5 search results from a vector database (e.g., FAISS) based on user input?",
+                "answer": "And we're going to be talking to new friends, friends.",
+                "question_index": 1
+            },
+            {
+                "question": "Explain how you would evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity, and how you would use these metrics to improve the model.",
+                "answer": "Can you please ask me to listen?",
+                "question_index": 2
+            }
+        ],
+        "evaluations": [
+            {
+                "question_index": 0,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 1,
+                        "justification": "The candidate did not provide any code or relevant information about tokenization or stop word removal. The provided text is unrelated to the task.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 1,
+                        "justification": "The candidate did not demonstrate any technical understanding of tokenization or stop word removal. The provided text is irrelevant and does not indicate any knowledge of NLP preprocessing.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Tokenization of text",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Removing stop words",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "Removing stop words",
+                        "The candidate did not provide any code or information related to tokenization or stop word removal."
+                    ],
+                    "missing_concepts": [
+                        "Removing stop words"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Provide a Python code snippet for tokenization and stop word removal as part of an NLP preprocessing pipeline."
+                    ]
+                },
+                "overall_score": 1.0
+            },
+            {
+                "question_index": 1,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 1,
+                        "justification": "The candidate did not provide any information about how to implement the REST API using FastAPI and to query a vector database to return the top 5 search results. They only talked about embedding and retrieval, which is not relevant to the question.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 1,
+                        "justification": "The candidate did not demonstrate any knowledge about how to create a FastAPI endpoint or how to implement a query function to search a vector database. They also did not mention the response format to the client.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Using FastAPI to create an endpoint",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Implementing a query function to search the vector database",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Returning the top 5 search results to the client",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "Returning the top 5 search results to the client"
+                    ],
+                    "missing_concepts": [
+                        "Returning the top 5 search results to the client"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Provide a clear and concise description of how to create a FastAPI endpoint.",
+                        "Explain how to implement a query function to search a vector database, such as using FAISS.",
+                        "Describe the expected response format for the client."
+                    ]
+                },
+                "overall_score": 1.33
+            },
+            {
+                "question_index": 2,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "The candidate did not provide any detailed explanation of how to evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity. They also did not explain how these metrics can be used to improve the model.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "The candidate did not provide any clear or detailed understanding of BLEU score and perplexity, nor did they discuss strategies for improving the model based on evaluation results.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Metrics for evaluating generative AI models",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Understanding BLEU score and perplexity",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Improving the model based on evaluation metrics",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "Metrics for evaluating generative AI models",
+                        "Understanding BLEU score and perplexity",
+                        "Improving the model based on evaluation metrics",
+                        "Lack of explanation on how to evaluate the performance of a generative AI model using metrics such as BLEU score and perplexity.",
+                        "Lack of understanding of how these metrics can be used to improve the model."
+                    ],
+                    "missing_concepts": [
+                        "Metrics for evaluating generative AI models",
+                        "Understanding BLEU score and perplexity",
+                        "Improving the model based on evaluation metrics"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Provide a clear explanation of how to calculate and interpret BLEU score and perplexity.",
+                        "Discuss strategies for improving the model based on the evaluation results, such as fine-tuning the model, adjusting hyperparameters, or using different metrics."
+                    ]
+                },
+                "overall_score": 0.0
+            }
+        ],
+        "interview_status": "completed",
+        "next_action": "finish",
+        "error_message": null
+    },
+    "created_at": "2026-11-03 18:51:18.650325",
+    "updated_at": "2026-11-03 18:53:56.145055"
+}

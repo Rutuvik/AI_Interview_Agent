@@ -1,0 +1,1054 @@
+{
+    "id": "65a58c11-489d-4cd8-ac12-fca307067d9f",
+    "candidate_name": "Rutvik Chavhan",
+    "status": "completed",
+    "state_data": {
+        "session_id": "65a58c11-489d-4cd8-ac12-fca307067d9f",
+        "candidate_name": "Rutvik Chavhan",
+        "candidate_profile": "B.Tech in Computer Technology. Completed an AI Engineer internship with experience building RAG applications, LLM-powered chatbots, workflow automation, and AI applications using Python, LangChain, FastAPI, and vector databases.",
+        "job_description": "We are looking for a fresher AI Engineer with knowledge of Python, Machine Learning, Deep Learning, NLP, LLMs, RAG, LangChain, LangGraph, FastAPI, and API integration. The candidate should demonstrate problem-solving, technical understanding, and practical project experience.",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Deep Learning",
+            "NLP",
+            "LLMs",
+            "RAG",
+            "LangChain",
+            "LangGraph",
+            "FastAPI",
+            "Vector Databases"
+        ],
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "Given a dataset containing customer reviews for products, how would you implement a sentiment analysis model using Python? Please discuss the steps and which libraries you would use.",
+                "skill": "Python",
+                "category": "technical",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Data preprocessing",
+                    "Feature extraction",
+                    "Model selection",
+                    "Evaluation metrics"
+                ],
+                "evaluation_criteria": [
+                    "Clarity of steps",
+                    "Selection of appropriate libraries",
+                    "Understanding of sentiment analysis concepts"
+                ]
+            },
+            {
+                "question": "You are working on a project that integrates a Language Model (LLM) with a FastAPI backend. How would you handle the integration of the LLM's output with the FastAPI's JSON responses to ensure data integrity and security? Provide a code snippet to demonstrate.",
+                "skill": "Python, LLMs, FastAPI",
+                "category": "technical",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Handling of LLM responses",
+                    "Security measures",
+                    "Data integrity checks"
+                ],
+                "evaluation_criteria": [
+                    "Code snippet relevance and security considerations",
+                    "Clarity in handling LLM responses",
+                    "Data integrity checks implementation"
+                ]
+            },
+            {
+                "question": "Design a system that uses RAG (Retrieval-Augmented Generation) to improve the retrieval of relevant documents for a specific query. Explain the components involved in your design and how they interact with each other.",
+                "skill": "Python, RAG, LangChain",
+                "category": "technical",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "RAG components",
+                    "Document retrieval",
+                    "Relevance scoring",
+                    "Interaction with LangChain"
+                ],
+                "evaluation_criteria": [
+                    "Component descriptions",
+                    "Clarity of interaction between components",
+                    "Relevance scoring mechanism"
+                ]
+            },
+            {
+                "question": "Implement a pipeline using LangChain and FastAPI to handle a complex NLP task. Specifically, you need to use LangChain to extract data from a knowledge graph and then perform a downstream task (e.g., sentiment analysis) using a LLM. Provide a code snippet to demonstrate.",
+                "skill": "Python, LangChain, FastAPI, NLP",
+                "category": "technical",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "LangChain pipeline setup",
+                    "Data extraction from knowledge graph",
+                    "NLP task implementation",
+                    "Handling of LLM integration"
+                ],
+                "evaluation_criteria": [
+                    "Code snippet relevance and correctness",
+                    "Pipeline clarity and flow",
+                    "Handling of NLP task"
+                ]
+            },
+            {
+                "question": "Design a workflow automation solution using Python that automates the process of fetching data from multiple APIs and storing them in a vector database. Explain the workflow, the APIs you will use, and the vector database. Provide a code snippet for the data fetching part.",
+                "skill": "Python, API integration, Vector Databases",
+                "category": "technical",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "API integration strategies",
+                    "Data fetching logic",
+                    "Vector database usage",
+                    "Workflow automation"
+                ],
+                "evaluation_criteria": [
+                    "Workflow design",
+                    "API integration implementation",
+                    "Vector database usage implementation",
+                    "Clarity of code snippet"
+                ]
+            }
+        ],
+        "current_question_index": 4,
+        "max_questions": 5,
+        "current_question": {
+            "question": "Design a workflow automation solution using Python that automates the process of fetching data from multiple APIs and storing them in a vector database. Explain the workflow, the APIs you will use, and the vector database. Provide a code snippet for the data fetching part.",
+            "skill": "Python, API integration, Vector Databases",
+            "category": "technical",
+            "difficulty": "medium",
+            "expected_answer_points": [
+                "API integration strategies",
+                "Data fetching logic",
+                "Vector database usage",
+                "Workflow automation"
+            ],
+            "evaluation_criteria": [
+                "Workflow design",
+                "API integration implementation",
+                "Vector database usage implementation",
+                "Clarity of code snippet"
+            ]
+        },
+        "candidate_answer": "I would build an automated ingestion pipeline using Python and REST APIs, with Airflow or Prefect handling orchestration. Data from multiple sources would be normalized, deduplicated, chunked, and converted into embeddings using a sentence-transformer model. I would store those embeddings with metadata in Pinecone using incremental, idempotent upserts. I would also implement retry mechanisms, rate-limit handling, logging, and monitoring to ensure the pipeline is reliable and production-ready. This architecture can then serve as the ingestion layer for a real-time or periodically updated RAG application.",
+        "current_evaluation": {
+            "evaluation": {
+                "category_score": {
+                    "score": 0,
+                    "justification": "Category score: 0/5. Rubric results: 0/4 covered, 0 partially covered, 4 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                    "evidence": []
+                },
+                "technical_correctness": {
+                    "score": 0,
+                    "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                    "evidence": []
+                },
+                "conceptual_understanding": {
+                    "score": 0,
+                    "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                    "evidence": []
+                },
+                "completeness": {
+                    "score": 0,
+                    "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                    "evidence": []
+                },
+                "expected_point_evaluations": [
+                    {
+                        "expected_point": "API integration strategies",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Data fetching logic",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Vector database usage",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Workflow automation",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    }
+                ],
+                "strengths": [],
+                "weaknesses": [
+                    "API integration strategies",
+                    "Data fetching logic",
+                    "Vector database usage",
+                    "Workflow automation"
+                ],
+                "missing_concepts": [
+                    "API integration strategies",
+                    "Data fetching logic",
+                    "Vector database usage",
+                    "Workflow automation"
+                ],
+                "incorrect_claims": [],
+                "suggested_improvements": [
+                    "Strengthen your explanation of: API integration strategies",
+                    "Strengthen your explanation of: Data fetching logic",
+                    "Strengthen your explanation of: Vector database usage",
+                    "Strengthen your explanation of: Workflow automation"
+                ]
+            },
+            "overall_score": 0.0
+        },
+        "conversation_history": [
+            {
+                "role": "interviewer",
+                "content": "Given a dataset containing customer reviews for products, how would you implement a sentiment analysis model using Python? Please discuss the steps and which libraries you would use.",
+                "question_index": 0
+            },
+            {
+                "role": "candidate",
+                "content": "I would initially build a baseline sentiment classification model using TF-IDF and Logistic Regression because it is computationally efficient, interpretable, and performs well on text data. After establishing baseline metrics, I would experiment with transformer-based models like BERT or DistilBERT to capture contextual meaning, sarcasm, and complex sentence structures, ultimately selecting the model that provides the best balance between accuracy, latency, and computational cost.",
+                "question_index": 0
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "category_score": {
+                            "score": 0,
+                            "justification": "Category score: 0/5. Rubric results: 0/4 covered, 0 partially covered, 4 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                            "evidence": []
+                        },
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Data preprocessing",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Feature extraction",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Model selection",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Evaluation metrics",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "Data preprocessing",
+                            "Feature extraction",
+                            "Model selection",
+                            "Evaluation metrics"
+                        ],
+                        "missing_concepts": [
+                            "Data preprocessing",
+                            "Feature extraction",
+                            "Model selection",
+                            "Evaluation metrics"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Strengthen your explanation of: Data preprocessing",
+                            "Strengthen your explanation of: Feature extraction",
+                            "Strengthen your explanation of: Model selection",
+                            "Strengthen your explanation of: Evaluation metrics"
+                        ]
+                    },
+                    "overall_score": 0.0
+                },
+                "question_index": 0
+            },
+            {
+                "role": "interviewer",
+                "content": "You are working on a project that integrates a Language Model (LLM) with a FastAPI backend. How would you handle the integration of the LLM's output with the FastAPI's JSON responses to ensure data integrity and security? Provide a code snippet to demonstrate.",
+                "question_index": 1
+            },
+            {
+                "role": "candidate",
+                "content": "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model. For security, I implement input validation, exception handling, rate limiting, authentication, and prevent sensitive information from leaking. In production, I prefer schema-constrained generation over parsing arbitrary text, making the integration more reliable, secure, and maintainable.",
+                "question_index": 1
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "category_score": {
+                            "score": 1,
+                            "justification": "Category score: 1/5. Rubric results: 1/3 covered, 0 partially covered, 2 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                            "evidence": [
+                                "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                            ]
+                        },
+                        "technical_correctness": {
+                            "score": 1,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                            "evidence": [
+                                "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 1,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                            "evidence": [
+                                "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 2,
+                            "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Handling of LLM responses",
+                                "status": "covered",
+                                "evidence": [
+                                    "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Security measures",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Data integrity checks",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [
+                            "Handling of LLM responses"
+                        ],
+                        "weaknesses": [
+                            "Security measures",
+                            "Data integrity checks"
+                        ],
+                        "missing_concepts": [
+                            "Security measures",
+                            "Data integrity checks"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Strengthen your explanation of: Security measures",
+                            "Strengthen your explanation of: Data integrity checks"
+                        ]
+                    },
+                    "overall_score": 1.0
+                },
+                "question_index": 1
+            },
+            {
+                "role": "interviewer",
+                "content": "Design a system that uses RAG (Retrieval-Augmented Generation) to improve the retrieval of relevant documents for a specific query. Explain the components involved in your design and how they interact with each other.",
+                "question_index": 2
+            },
+            {
+                "role": "candidate",
+                "content": "I would implement a hybrid RAG architecture combining dense vector search and sparse BM25 retrieval, followed by Reciprocal Rank Fusion and cross-encoder reranking. This approach improves recall during candidate retrieval and precision during final ranking. The selected chunks are passed to an LLM with strict grounding instructions, and the generated answer includes citations. Finally, I would evaluate retrieval using Recall@K, Precision@K, MRR, and NDCG, and generation using faithfulness and answer relevancy. This modular architecture allows me to identify bottlenecks and optimize retrieval quality independently from generation quality.",
+                "question_index": 2
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "category_score": {
+                            "score": 0,
+                            "justification": "Category score: 0/5. Rubric results: 0/4 covered, 0 partially covered, 4 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                            "evidence": []
+                        },
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "RAG components",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Document retrieval",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Relevance scoring",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Interaction with LangChain",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "RAG components",
+                            "Document retrieval",
+                            "Relevance scoring",
+                            "Interaction with LangChain"
+                        ],
+                        "missing_concepts": [
+                            "RAG components",
+                            "Document retrieval",
+                            "Relevance scoring",
+                            "Interaction with LangChain"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Strengthen your explanation of: RAG components",
+                            "Strengthen your explanation of: Document retrieval",
+                            "Strengthen your explanation of: Relevance scoring",
+                            "Strengthen your explanation of: Interaction with LangChain"
+                        ]
+                    },
+                    "overall_score": 0.0
+                },
+                "question_index": 2
+            },
+            {
+                "role": "interviewer",
+                "content": "Implement a pipeline using LangChain and FastAPI to handle a complex NLP task. Specifically, you need to use LangChain to extract data from a knowledge graph and then perform a downstream task (e.g., sentiment analysis) using a LLM. Provide a code snippet to demonstrate.",
+                "question_index": 3
+            },
+            {
+                "role": "candidate",
+                "content": "I would use LangChain to orchestrate the entire pipeline. Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis. FastAPI exposes the workflow through REST endpoints, while Pydantic ensures data validation and schema consistency. This architecture is modular, scalable, and can be extended to entity extraction, summarization, fraud detection, or recommendation systems.",
+                "question_index": 3
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "category_score": {
+                            "score": 1,
+                            "justification": "Category score: 1/5. Rubric results: 1/4 covered, 0 partially covered, 3 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                            "evidence": [
+                                "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                            ]
+                        },
+                        "technical_correctness": {
+                            "score": 1,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                            "evidence": [
+                                "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 1,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                            "evidence": [
+                                "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 1,
+                            "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "LangChain pipeline setup",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Data extraction from knowledge graph",
+                                "status": "covered",
+                                "evidence": [
+                                    "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "NLP task implementation",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Handling of LLM integration",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [
+                            "Data extraction from knowledge graph"
+                        ],
+                        "weaknesses": [
+                            "LangChain pipeline setup",
+                            "NLP task implementation",
+                            "Handling of LLM integration"
+                        ],
+                        "missing_concepts": [
+                            "LangChain pipeline setup",
+                            "NLP task implementation",
+                            "Handling of LLM integration"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Strengthen your explanation of: LangChain pipeline setup",
+                            "Strengthen your explanation of: NLP task implementation",
+                            "Strengthen your explanation of: Handling of LLM integration"
+                        ]
+                    },
+                    "overall_score": 1.0
+                },
+                "question_index": 3
+            },
+            {
+                "role": "interviewer",
+                "content": "Design a workflow automation solution using Python that automates the process of fetching data from multiple APIs and storing them in a vector database. Explain the workflow, the APIs you will use, and the vector database. Provide a code snippet for the data fetching part.",
+                "question_index": 4
+            },
+            {
+                "role": "candidate",
+                "content": "I would build an automated ingestion pipeline using Python and REST APIs, with Airflow or Prefect handling orchestration. Data from multiple sources would be normalized, deduplicated, chunked, and converted into embeddings using a sentence-transformer model. I would store those embeddings with metadata in Pinecone using incremental, idempotent upserts. I would also implement retry mechanisms, rate-limit handling, logging, and monitoring to ensure the pipeline is reliable and production-ready. This architecture can then serve as the ingestion layer for a real-time or periodically updated RAG application.",
+                "question_index": 4
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "category_score": {
+                            "score": 0,
+                            "justification": "Category score: 0/5. Rubric results: 0/4 covered, 0 partially covered, 4 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                            "evidence": []
+                        },
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "API integration strategies",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Data fetching logic",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Vector database usage",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Workflow automation",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "API integration strategies",
+                            "Data fetching logic",
+                            "Vector database usage",
+                            "Workflow automation"
+                        ],
+                        "missing_concepts": [
+                            "API integration strategies",
+                            "Data fetching logic",
+                            "Vector database usage",
+                            "Workflow automation"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Strengthen your explanation of: API integration strategies",
+                            "Strengthen your explanation of: Data fetching logic",
+                            "Strengthen your explanation of: Vector database usage",
+                            "Strengthen your explanation of: Workflow automation"
+                        ]
+                    },
+                    "overall_score": 0.0
+                },
+                "question_index": 4
+            }
+        ],
+        "answers": [
+            {
+                "question": "Given a dataset containing customer reviews for products, how would you implement a sentiment analysis model using Python? Please discuss the steps and which libraries you would use.",
+                "answer": "I would initially build a baseline sentiment classification model using TF-IDF and Logistic Regression because it is computationally efficient, interpretable, and performs well on text data. After establishing baseline metrics, I would experiment with transformer-based models like BERT or DistilBERT to capture contextual meaning, sarcasm, and complex sentence structures, ultimately selecting the model that provides the best balance between accuracy, latency, and computational cost.",
+                "question_index": 0
+            },
+            {
+                "question": "You are working on a project that integrates a Language Model (LLM) with a FastAPI backend. How would you handle the integration of the LLM's output with the FastAPI's JSON responses to ensure data integrity and security? Provide a code snippet to demonstrate.",
+                "answer": "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model. For security, I implement input validation, exception handling, rate limiting, authentication, and prevent sensitive information from leaking. In production, I prefer schema-constrained generation over parsing arbitrary text, making the integration more reliable, secure, and maintainable.",
+                "question_index": 1
+            },
+            {
+                "question": "Design a system that uses RAG (Retrieval-Augmented Generation) to improve the retrieval of relevant documents for a specific query. Explain the components involved in your design and how they interact with each other.",
+                "answer": "I would implement a hybrid RAG architecture combining dense vector search and sparse BM25 retrieval, followed by Reciprocal Rank Fusion and cross-encoder reranking. This approach improves recall during candidate retrieval and precision during final ranking. The selected chunks are passed to an LLM with strict grounding instructions, and the generated answer includes citations. Finally, I would evaluate retrieval using Recall@K, Precision@K, MRR, and NDCG, and generation using faithfulness and answer relevancy. This modular architecture allows me to identify bottlenecks and optimize retrieval quality independently from generation quality.",
+                "question_index": 2
+            },
+            {
+                "question": "Implement a pipeline using LangChain and FastAPI to handle a complex NLP task. Specifically, you need to use LangChain to extract data from a knowledge graph and then perform a downstream task (e.g., sentiment analysis) using a LLM. Provide a code snippet to demonstrate.",
+                "answer": "I would use LangChain to orchestrate the entire pipeline. Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis. FastAPI exposes the workflow through REST endpoints, while Pydantic ensures data validation and schema consistency. This architecture is modular, scalable, and can be extended to entity extraction, summarization, fraud detection, or recommendation systems.",
+                "question_index": 3
+            },
+            {
+                "question": "Design a workflow automation solution using Python that automates the process of fetching data from multiple APIs and storing them in a vector database. Explain the workflow, the APIs you will use, and the vector database. Provide a code snippet for the data fetching part.",
+                "answer": "I would build an automated ingestion pipeline using Python and REST APIs, with Airflow or Prefect handling orchestration. Data from multiple sources would be normalized, deduplicated, chunked, and converted into embeddings using a sentence-transformer model. I would store those embeddings with metadata in Pinecone using incremental, idempotent upserts. I would also implement retry mechanisms, rate-limit handling, logging, and monitoring to ensure the pipeline is reliable and production-ready. This architecture can then serve as the ingestion layer for a real-time or periodically updated RAG application.",
+                "question_index": 4
+            }
+        ],
+        "evaluations": [
+            {
+                "question_index": 0,
+                "evaluation": {
+                    "category_score": {
+                        "score": 0,
+                        "justification": "Category score: 0/5. Rubric results: 0/4 covered, 0 partially covered, 4 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                        "evidence": []
+                    },
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Data preprocessing",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Feature extraction",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Model selection",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Evaluation metrics",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "Data preprocessing",
+                        "Feature extraction",
+                        "Model selection",
+                        "Evaluation metrics"
+                    ],
+                    "missing_concepts": [
+                        "Data preprocessing",
+                        "Feature extraction",
+                        "Model selection",
+                        "Evaluation metrics"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Strengthen your explanation of: Data preprocessing",
+                        "Strengthen your explanation of: Feature extraction",
+                        "Strengthen your explanation of: Model selection",
+                        "Strengthen your explanation of: Evaluation metrics"
+                    ]
+                },
+                "overall_score": 0.0
+            },
+            {
+                "question_index": 1,
+                "evaluation": {
+                    "category_score": {
+                        "score": 1,
+                        "justification": "Category score: 1/5. Rubric results: 1/3 covered, 0 partially covered, 2 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                        "evidence": [
+                            "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                        ]
+                    },
+                    "technical_correctness": {
+                        "score": 1,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                        "evidence": [
+                            "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 1,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                        "evidence": [
+                            "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Handling of LLM responses",
+                            "status": "covered",
+                            "evidence": [
+                                "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Security measures",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Data integrity checks",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [
+                        "Handling of LLM responses"
+                    ],
+                    "weaknesses": [
+                        "Security measures",
+                        "Data integrity checks"
+                    ],
+                    "missing_concepts": [
+                        "Security measures",
+                        "Data integrity checks"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Strengthen your explanation of: Security measures",
+                        "Strengthen your explanation of: Data integrity checks"
+                    ]
+                },
+                "overall_score": 1.0
+            },
+            {
+                "question_index": 2,
+                "evaluation": {
+                    "category_score": {
+                        "score": 0,
+                        "justification": "Category score: 0/5. Rubric results: 0/4 covered, 0 partially covered, 4 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                        "evidence": []
+                    },
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "RAG components",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Document retrieval",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Relevance scoring",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Interaction with LangChain",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "RAG components",
+                        "Document retrieval",
+                        "Relevance scoring",
+                        "Interaction with LangChain"
+                    ],
+                    "missing_concepts": [
+                        "RAG components",
+                        "Document retrieval",
+                        "Relevance scoring",
+                        "Interaction with LangChain"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Strengthen your explanation of: RAG components",
+                        "Strengthen your explanation of: Document retrieval",
+                        "Strengthen your explanation of: Relevance scoring",
+                        "Strengthen your explanation of: Interaction with LangChain"
+                    ]
+                },
+                "overall_score": 0.0
+            },
+            {
+                "question_index": 3,
+                "evaluation": {
+                    "category_score": {
+                        "score": 1,
+                        "justification": "Category score: 1/5. Rubric results: 1/4 covered, 0 partially covered, 3 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                        "evidence": [
+                            "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                        ]
+                    },
+                    "technical_correctness": {
+                        "score": 1,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                        "evidence": [
+                            "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 1,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                        "evidence": [
+                            "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 1,
+                        "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "LangChain pipeline setup",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Data extraction from knowledge graph",
+                            "status": "covered",
+                            "evidence": [
+                                "Neo4j acts as the knowledge graph for structured data retrieval, LangChain handles query execution and prompt orchestration, and an LLM performs the downstream sentiment analysis."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "NLP task implementation",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Handling of LLM integration",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [
+                        "Data extraction from knowledge graph"
+                    ],
+                    "weaknesses": [
+                        "LangChain pipeline setup",
+                        "NLP task implementation",
+                        "Handling of LLM integration"
+                    ],
+                    "missing_concepts": [
+                        "LangChain pipeline setup",
+                        "NLP task implementation",
+                        "Handling of LLM integration"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Strengthen your explanation of: LangChain pipeline setup",
+                        "Strengthen your explanation of: NLP task implementation",
+                        "Strengthen your explanation of: Handling of LLM integration"
+                    ]
+                },
+                "overall_score": 1.0
+            },
+            {
+                "question_index": 4,
+                "evaluation": {
+                    "category_score": {
+                        "score": 0,
+                        "justification": "Category score: 0/5. Rubric results: 0/4 covered, 0 partially covered, 4 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                        "evidence": []
+                    },
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "API integration strategies",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Data fetching logic",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Vector database usage",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Workflow automation",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "API integration strategies",
+                        "Data fetching logic",
+                        "Vector database usage",
+                        "Workflow automation"
+                    ],
+                    "missing_concepts": [
+                        "API integration strategies",
+                        "Data fetching logic",
+                        "Vector database usage",
+                        "Workflow automation"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Strengthen your explanation of: API integration strategies",
+                        "Strengthen your explanation of: Data fetching logic",
+                        "Strengthen your explanation of: Vector database usage",
+                        "Strengthen your explanation of: Workflow automation"
+                    ]
+                },
+                "overall_score": 0.0
+            }
+        ],
+        "interview_status": "completed",
+        "next_action": "finish",
+        "error_message": null,
+        "communication_evaluation": {
+            "score": 80,
+            "justification": "The candidate provided clear and structured responses, explained technical concepts effectively, used concise language where appropriate, and maintained professional coherence throughout the interview. The score of 4 indicates strong performance that meets or exceeds expectations.",
+            "evidence": [
+                "I would initially build a baseline sentiment classification model using TF-IDF and Logistic Regression because it is computationally efficient, interpretable, and performs well on text data.",
+                "I would experiment with transformer-based models like BERT or DistilBERT to capture contextual meaning, sarcasm, and complex sentence structures, ultimately selecting the model that provides the best balance between accuracy, latency, and computational cost.",
+                "I ensure the integrity of LLM responses by implementing a structured output schema with Pydantic, validating every response before returning it through FastAPI's response_model.",
+                "I would implement a hybrid RAG architecture combining dense vector search and sparse BM25 retrieval, followed by Reciprocal Rank Fusion and cross-encoder reranking.",
+                "I would use LangChain to orchestrate the entire pipeline.",
+                "I would build an automated ingestion pipeline using Python and REST APIs, with Airflow or Prefect handling orchestration."
+            ]
+        }
+    },
+    "created_at": "2026-11-04 21:31:47.132641",
+    "updated_at": "2026-11-04 22:03:10.055408"
+}

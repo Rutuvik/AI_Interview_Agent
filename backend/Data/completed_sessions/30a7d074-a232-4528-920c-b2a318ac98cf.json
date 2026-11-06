@@ -1,0 +1,497 @@
+{
+    "id": "30a7d074-a232-4528-920c-b2a318ac98cf",
+    "candidate_name": "Rutvik",
+    "status": "completed",
+    "state_data": {
+        "session_id": "30a7d074-a232-4528-920c-b2a318ac98cf",
+        "candidate_name": "Rutvik",
+        "questions": [
+            {
+                "question": "Design a Python function that implements a custom prompt engineering technique to optimize retrieval and scoring in a RAG (Retrieval-Augmented Generation) pipeline. The function should take as input a query, a list of documents, and a similarity metric, and return a list of document-diffusion pairs. How would you structure the function to ensure it integrates seamlessly with FastAPI for real-time updates? What considerations should you take into account for handling large-scale document sets and varying similarity metrics?",
+                "skill": "Python",
+                "difficulty": "hard",
+                "expected_answer_points": [
+                    "Prompt engineering technique",
+                    "RAG pipeline integration",
+                    "FastAPI real-time updates",
+                    "Handling large-scale datasets",
+                    "Varying similarity metrics"
+                ],
+                "evaluation_criteria": [
+                    "Clarity and efficiency of the prompt engineering function",
+                    "Integration with FastAPI",
+                    "Handling of large datasets and similarity metrics",
+                    "Considerations for real-time updates"
+                ]
+            },
+            {
+                "question": "You are tasked with building a LLM-powered application using LangChain and LangGraph. The application requires integrating multiple external services through REST APIs. Describe the steps you would take to implement asynchronous calls to these services, ensuring that no single service call stalls the overall application flow. What are the considerations for error handling and retries in your implementation? Provide an example of how you would structure the code to handle these calls in a scalable and maintainable way.",
+                "skill": "Python, REST APIs, asynchronous programming",
+                "difficulty": "hard",
+                "expected_answer_points": [
+                    "LangChain and LangGraph integration",
+                    "External service integration",
+                    "Asynchronous calls",
+                    "Error handling and retries",
+                    "Code scalability and maintainability"
+                ],
+                "evaluation_criteria": [
+                    "Asynchronous call implementation",
+                    "Error handling and retries strategy",
+                    "Code readability and maintainability",
+                    "Scalability considerations"
+                ]
+            },
+            {
+                "question": "You have been given a dataset containing embeddings of documents and corresponding labels for a machine learning task. How would you preprocess the embeddings for use in a RAG pipeline, and what would be the architecture of the RAG pipeline you would design to leverage these embeddings? Additionally, discuss the process of evaluating the performance of your RAG pipeline using metrics such as F1 score, precision, recall, and AUC-ROC, and how you would optimize the RAG pipeline based on these evaluations. Provide an example of how you would implement the vector database (FAISS) in your pipeline.",
+                "skill": "Python, Machine Learning, NLP, vector databases",
+                "difficulty": "hard",
+                "expected_answer_points": [
+                    "Embedding preprocessing",
+                    "RAG pipeline architecture",
+                    "Performance evaluation metrics",
+                    "Vector database (FAISS) implementation",
+                    "Pipeline optimization"
+                ],
+                "evaluation_criteria": [
+                    "Embedding preprocessing techniques",
+                    "RAG pipeline architecture",
+                    "Performance evaluation metrics implementation",
+                    "Vector database integration and optimization",
+                    "Pipeline optimization strategies"
+                ]
+            }
+        ],
+        "current_question_index": 3,
+        "max_questions": 3,
+        "current_question": null,
+        "candidate_answer": "I'll see you in the next discussion.",
+        "current_evaluation": {
+            "evaluation": {
+                "technical_correctness": {
+                    "score": 0,
+                    "justification": "The candidate did not provide any information about embedding preprocessing, RAG pipeline architecture, performance evaluation metrics, vector database (FAISS) implementation, or pipeline optimization. The candidate's answer was incomplete and did not cover any of the expected points.",
+                    "evidence": []
+                },
+                "conceptual_understanding": {
+                    "score": 0,
+                    "justification": "The candidate did not demonstrate any technical knowledge or understanding related to the tasks and concepts outlined in the expected answer points. The candidate's response was a simple dismissal of the discussion.",
+                    "evidence": []
+                },
+                "completeness": {
+                    "score": 0,
+                    "justification": "Completeness calculated from deterministic expected-point coverage.",
+                    "evidence": []
+                },
+                "expected_point_evaluations": [
+                    {
+                        "expected_point": "Embedding preprocessing",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "RAG pipeline architecture",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Performance evaluation metrics",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Vector database (FAISS) implementation",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Pipeline optimization",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    }
+                ],
+                "strengths": [],
+                "weaknesses": [
+                    "Embedding preprocessing",
+                    "RAG pipeline architecture",
+                    "Performance evaluation metrics",
+                    "Vector database (FAISS) implementation",
+                    "Pipeline optimization"
+                ],
+                "missing_concepts": [
+                    "Embedding preprocessing",
+                    "RAG pipeline architecture",
+                    "Performance evaluation metrics",
+                    "Vector database (FAISS) implementation",
+                    "Pipeline optimization"
+                ],
+                "incorrect_claims": [],
+                "suggested_improvements": [
+                    "The candidate should provide detailed information on how to preprocess embeddings for a RAG pipeline, design the RAG pipeline architecture, implement vector database (FAISS) for vector similarity search, evaluate the RAG pipeline using F1 score, precision, recall, and AUC-ROC, and optimize the pipeline based on these evaluations."
+                ]
+            },
+            "overall_score": 0.0
+        },
+        "conversation_history": [
+            {
+                "role": "interviewer",
+                "content": "Design a Python function that implements a custom prompt engineering technique to optimize retrieval and scoring in a RAG (Retrieval-Augmented Generation) pipeline. The function should take as input a query, a list of documents, and a similarity metric, and return a list of document-diffusion pairs. How would you structure the function to ensure it integrates seamlessly with FastAPI for real-time updates? What considerations should you take into account for handling large-scale document sets and varying similarity metrics?",
+                "question_index": 0
+            },
+            {
+                "role": "candidate",
+                "content": "So do you have any more dance?"
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "The candidate did not provide any code or explanations related to the prompt engineering function or its integration with FastAPI. They also did not discuss the handling of large-scale datasets or varying similarity metrics.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "The candidate did not demonstrate any technical correctness or conceptual understanding regarding prompt engineering, RAG pipeline integration, FastAPI real-time updates, handling large-scale datasets, or varying similarity metrics. They only engaged in a casual conversation unrelated to the prompt.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Prompt engineering technique",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "RAG pipeline integration",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "FastAPI real-time updates",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Handling large-scale datasets",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Varying similarity metrics",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "Prompt engineering technique",
+                            "RAG pipeline integration",
+                            "FastAPI real-time updates",
+                            "Handling large-scale datasets",
+                            "Varying similarity metrics",
+                            "The candidate did not provide any technical details about the prompt engineering function or its integration with FastAPI.",
+                            "The candidate did not discuss any considerations for handling large-scale datasets or varying similarity metrics.",
+                            "The candidate did not address the integration with the RAG pipeline."
+                        ],
+                        "missing_concepts": [
+                            "Prompt engineering technique",
+                            "RAG pipeline integration",
+                            "FastAPI real-time updates",
+                            "Handling large-scale datasets",
+                            "Varying similarity metrics"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide a Python function for the prompt engineering technique and explain how it integrates with FastAPI.",
+                            "The candidate should discuss how to handle large-scale datasets and varying similarity metrics in the prompt engineering function.",
+                            "The candidate should explain the integration of the prompt engineering function with the RAG pipeline."
+                        ]
+                    },
+                    "overall_score": 0.0
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "You are tasked with building a LLM-powered application using LangChain and LangGraph. The application requires integrating multiple external services through REST APIs. Describe the steps you would take to implement asynchronous calls to these services, ensuring that no single service call stalls the overall application flow. What are the considerations for error handling and retries in your implementation? Provide an example of how you would structure the code to handle these calls in a scalable and maintainable way.",
+                "question_index": 1
+            },
+            {
+                "role": "candidate",
+                "content": "[Question skipped]",
+                "question_index": 1
+            },
+            {
+                "role": "interviewer",
+                "content": "You have been given a dataset containing embeddings of documents and corresponding labels for a machine learning task. How would you preprocess the embeddings for use in a RAG pipeline, and what would be the architecture of the RAG pipeline you would design to leverage these embeddings? Additionally, discuss the process of evaluating the performance of your RAG pipeline using metrics such as F1 score, precision, recall, and AUC-ROC, and how you would optimize the RAG pipeline based on these evaluations. Provide an example of how you would implement the vector database (FAISS) in your pipeline.",
+                "question_index": 2
+            },
+            {
+                "role": "candidate",
+                "content": "I'll see you in the next discussion."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "The candidate did not provide any information about embedding preprocessing, RAG pipeline architecture, performance evaluation metrics, vector database (FAISS) implementation, or pipeline optimization. The candidate's answer was incomplete and did not cover any of the expected points.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "The candidate did not demonstrate any technical knowledge or understanding related to the tasks and concepts outlined in the expected answer points. The candidate's response was a simple dismissal of the discussion.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Embedding preprocessing",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "RAG pipeline architecture",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Performance evaluation metrics",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Vector database (FAISS) implementation",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Pipeline optimization",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "Embedding preprocessing",
+                            "RAG pipeline architecture",
+                            "Performance evaluation metrics",
+                            "Vector database (FAISS) implementation",
+                            "Pipeline optimization"
+                        ],
+                        "missing_concepts": [
+                            "Embedding preprocessing",
+                            "RAG pipeline architecture",
+                            "Performance evaluation metrics",
+                            "Vector database (FAISS) implementation",
+                            "Pipeline optimization"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide detailed information on how to preprocess embeddings for a RAG pipeline, design the RAG pipeline architecture, implement vector database (FAISS) for vector similarity search, evaluate the RAG pipeline using F1 score, precision, recall, and AUC-ROC, and optimize the pipeline based on these evaluations."
+                        ]
+                    },
+                    "overall_score": 0.0
+                }
+            }
+        ],
+        "answers": [
+            {
+                "question": "Design a Python function that implements a custom prompt engineering technique to optimize retrieval and scoring in a RAG (Retrieval-Augmented Generation) pipeline. The function should take as input a query, a list of documents, and a similarity metric, and return a list of document-diffusion pairs. How would you structure the function to ensure it integrates seamlessly with FastAPI for real-time updates? What considerations should you take into account for handling large-scale document sets and varying similarity metrics?",
+                "answer": "So do you have any more dance?",
+                "question_index": 0
+            },
+            {
+                "question": "You are tasked with building a LLM-powered application using LangChain and LangGraph. The application requires integrating multiple external services through REST APIs. Describe the steps you would take to implement asynchronous calls to these services, ensuring that no single service call stalls the overall application flow. What are the considerations for error handling and retries in your implementation? Provide an example of how you would structure the code to handle these calls in a scalable and maintainable way.",
+                "question_index": 1,
+                "skipped": true
+            },
+            {
+                "question": "You have been given a dataset containing embeddings of documents and corresponding labels for a machine learning task. How would you preprocess the embeddings for use in a RAG pipeline, and what would be the architecture of the RAG pipeline you would design to leverage these embeddings? Additionally, discuss the process of evaluating the performance of your RAG pipeline using metrics such as F1 score, precision, recall, and AUC-ROC, and how you would optimize the RAG pipeline based on these evaluations. Provide an example of how you would implement the vector database (FAISS) in your pipeline.",
+                "answer": "I'll see you in the next discussion.",
+                "question_index": 2
+            }
+        ],
+        "evaluations": [
+            {
+                "question_index": 0,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "The candidate did not provide any code or explanations related to the prompt engineering function or its integration with FastAPI. They also did not discuss the handling of large-scale datasets or varying similarity metrics.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "The candidate did not demonstrate any technical correctness or conceptual understanding regarding prompt engineering, RAG pipeline integration, FastAPI real-time updates, handling large-scale datasets, or varying similarity metrics. They only engaged in a casual conversation unrelated to the prompt.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Prompt engineering technique",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "RAG pipeline integration",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "FastAPI real-time updates",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Handling large-scale datasets",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Varying similarity metrics",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "Prompt engineering technique",
+                        "RAG pipeline integration",
+                        "FastAPI real-time updates",
+                        "Handling large-scale datasets",
+                        "Varying similarity metrics",
+                        "The candidate did not provide any technical details about the prompt engineering function or its integration with FastAPI.",
+                        "The candidate did not discuss any considerations for handling large-scale datasets or varying similarity metrics.",
+                        "The candidate did not address the integration with the RAG pipeline."
+                    ],
+                    "missing_concepts": [
+                        "Prompt engineering technique",
+                        "RAG pipeline integration",
+                        "FastAPI real-time updates",
+                        "Handling large-scale datasets",
+                        "Varying similarity metrics"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide a Python function for the prompt engineering technique and explain how it integrates with FastAPI.",
+                        "The candidate should discuss how to handle large-scale datasets and varying similarity metrics in the prompt engineering function.",
+                        "The candidate should explain the integration of the prompt engineering function with the RAG pipeline."
+                    ]
+                },
+                "overall_score": 0.0
+            },
+            {
+                "question_index": 2,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "The candidate did not provide any information about embedding preprocessing, RAG pipeline architecture, performance evaluation metrics, vector database (FAISS) implementation, or pipeline optimization. The candidate's answer was incomplete and did not cover any of the expected points.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "The candidate did not demonstrate any technical knowledge or understanding related to the tasks and concepts outlined in the expected answer points. The candidate's response was a simple dismissal of the discussion.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Embedding preprocessing",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "RAG pipeline architecture",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Performance evaluation metrics",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Vector database (FAISS) implementation",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Pipeline optimization",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "Embedding preprocessing",
+                        "RAG pipeline architecture",
+                        "Performance evaluation metrics",
+                        "Vector database (FAISS) implementation",
+                        "Pipeline optimization"
+                    ],
+                    "missing_concepts": [
+                        "Embedding preprocessing",
+                        "RAG pipeline architecture",
+                        "Performance evaluation metrics",
+                        "Vector database (FAISS) implementation",
+                        "Pipeline optimization"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide detailed information on how to preprocess embeddings for a RAG pipeline, design the RAG pipeline architecture, implement vector database (FAISS) for vector similarity search, evaluate the RAG pipeline using F1 score, precision, recall, and AUC-ROC, and optimize the pipeline based on these evaluations."
+                    ]
+                },
+                "overall_score": 0.0
+            }
+        ],
+        "interview_status": "completed",
+        "next_action": "finish",
+        "error_message": null
+    },
+    "created_at": "2026-11-03 19:53:34.029305",
+    "updated_at": "2026-11-03 19:57:46.892251"
+}

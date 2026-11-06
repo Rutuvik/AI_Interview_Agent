@@ -1,0 +1,625 @@
+{
+    "id": "e7c6cbd5-dc6f-4469-bdec-f4bdf53696f3",
+    "candidate_name": "Rutvik",
+    "status": "completed",
+    "state_data": {
+        "session_id": "e7c6cbd5-dc6f-4469-bdec-f4bdf53696f3",
+        "candidate_name": "Rutvik",
+        "questions": [
+            {
+                "question": "How would you implement a custom activation function in Python for a neural network model, and what are the benefits of using such a custom function compared to the standard activation functions available in libraries like TensorFlow or PyTorch?",
+                "skill": "Python",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Implementation of a custom activation function",
+                    "Understanding of activation function benefits and constraints"
+                ],
+                "evaluation_criteria": [
+                    "Explanation of the custom activation function implementation",
+                    "Comparison with standard activation functions",
+                    "Discussion on potential benefits and drawbacks of using a custom function"
+                ]
+            },
+            {
+                "question": "You are working on a project that involves processing a large text corpus using Natural Language Processing (NLP). How would you design a pipeline to extract features from the text data using Python and NLP techniques such as tokenization, stemming, and lemmatization? What metrics would you use to evaluate the performance of your NLP pipeline, and why?",
+                "skill": "Python, NLP",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Pipeline design for text preprocessing",
+                    "Evaluation metrics for NLP pipelines",
+                    "Techniques used for text preprocessing"
+                ],
+                "evaluation_criteria": [
+                    "Clarity and depth in explaining the pipeline design",
+                    "Selection of appropriate evaluation metrics",
+                    "Understanding of common NLP preprocessing techniques"
+                ]
+            },
+            {
+                "question": "Explain how you would leverage a Language Model (LLM) to answer a complex question that requires understanding of context. Provide an example where you used an LLM in a real-world scenario and describe the process of pre-processing the input, fine-tuning the model, and integrating it into your application. What challenges did you face and how did you overcome them?",
+                "skill": "Python, LLM",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Pre-processing steps for context understanding",
+                    "Fine-tuning process for LLM",
+                    "Challenges in integrating LLM"
+                ],
+                "evaluation_criteria": [
+                    "Description of the pre-processing steps",
+                    "Process of fine-tuning and integration",
+                    "Identification and resolution of challenges"
+                ]
+            },
+            {
+                "question": "Design a RAG (Retrieval-Augmented Generation) pipeline in Python. How would you handle the retrieval process, and what would be the steps to integrate the retrieval mechanism with your generative model? Provide an example of how you would use a pre-trained language model and a knowledge base (like a FAQ system) to generate responses to user queries. What are the trade-offs you would consider in this process?",
+                "skill": "Python, RAG",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Retrieval process and integration with generative model",
+                    "Example of using a pre-trained model and knowledge base",
+                    "Trade-offs in the design of RAG pipeline"
+                ],
+                "evaluation_criteria": [
+                    "Clarity in explaining the retrieval process",
+                    "Steps for integration with generative model",
+                    "Identification and discussion of trade-offs"
+                ]
+            },
+            {
+                "question": "Explain how you would use LangChain to build a conversational AI system that can understand and respond to user queries based on a dataset of historical interactions. How would you implement a chatbot that can handle user intents and extract structured data from unstructured inputs using LangChain and FastAPI? Provide an example of how you would set up a FastAPI API to serve the chatbot, and discuss the integration of LangChain components in your solution.",
+                "skill": "Python, LangChain, FastAPI",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "LangChain components used for chatbot",
+                    "Integration of LangChain with FastAPI",
+                    "Setup of FastAPI API for serving chatbot"
+                ],
+                "evaluation_criteria": [
+                    "Clarity in explaining LangChain components",
+                    "Steps for integration with FastAPI",
+                    "Setup and explanation of FastAPI API"
+                ]
+            }
+        ],
+        "current_question_index": 5,
+        "max_questions": 5,
+        "current_question": null,
+        "candidate_answer": "I will use voice ai agent platform",
+        "current_evaluation": {
+            "evaluation": {
+                "technical_correctness": {
+                    "score": 0,
+                    "justification": "The candidate mentioned a 'voice ai agent platform', which does not address the use of LangChain or FastAPI for building a conversational AI system. The candidate did not provide any specific information about LangChain or FastAPI.",
+                    "evidence": [
+                        "I will use voice ai agent platform"
+                    ]
+                },
+                "conceptual_understanding": {
+                    "score": 0,
+                    "justification": "The candidate did not explain how to use LangChain for chatbot, how to integrate LangChain with FastAPI, or the setup of FastAPI API. The candidate's answer was completely unrelated to the expected points.",
+                    "evidence": [
+                        "I will use voice ai agent platform"
+                    ]
+                },
+                "completeness": {
+                    "score": 0,
+                    "justification": "The candidate's answer did not provide any details on how to implement a chatbot using LangChain and FastAPI, or any setup of FastAPI API. The candidate's answer was irrelevant to the expected answer points.",
+                    "evidence": [
+                        "I will use voice ai agent platform"
+                    ]
+                },
+                "strengths": [],
+                "weaknesses": [
+                    "The candidate's answer was completely off-topic and did not address the use of LangChain or FastAPI for building a conversational AI system. The candidate did not provide any relevant information to the expected points."
+                ],
+                "missing_concepts": [
+                    "LangChain components used for chatbot",
+                    "Integration of LangChain with FastAPI",
+                    "Setup of FastAPI API for serving chatbot"
+                ],
+                "incorrect_claims": [],
+                "suggested_improvements": [
+                    "The candidate should provide an explanation of how to use LangChain for chatbot, how to integrate LangChain with FastAPI, and the setup of FastAPI API to serve the chatbot."
+                ]
+            },
+            "overall_score": 0.0
+        },
+        "conversation_history": [
+            {
+                "role": "interviewer",
+                "content": "How would you implement a custom activation function in Python for a neural network model, and what are the benefits of using such a custom function compared to the standard activation functions available in libraries like TensorFlow or PyTorch?",
+                "question_index": 0
+            },
+            {
+                "role": "candidate",
+                "content": "A custom activation function can be implemented in Python using NumPy. For example, I can define a function like swish: f(x) = x * sigmoid(x), where sigmoid(x) = 1 / (1 + exp(-x)). In PyTorch, I can create a custom activation by subclassing nn.Module and implementing the forward method. In TensorFlow, I can define a custom function using TensorFlow operations. Custom activation functions allow us to experiment with specialized mathematical transformations that may improve performance for particular tasks. However, we need to consider differentiability, computational efficiency, numerical stability, and compatibility with automatic differentiation."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 3,
+                            "justification": "The candidate correctly explains how to implement a custom activation function using NumPy and PyTorch. They also touch on TensorFlow, though not in the same level of detail as NumPy or PyTorch.",
+                            "evidence": [
+                                "A custom activation function can be implemented in Python using NumPy. For example, I can define a function like swish: f(x) = x * sigmoid(x), where sigmoid(x) = 1 / (1 + exp(-x)). In PyTorch, I can create a custom activation by subclassing nn.Module and implementing the forward method. In TensorFlow, I can define a custom function using TensorFlow operations."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 3,
+                            "justification": "The candidate demonstrates understanding of using custom activation functions for experimentation and potential improvements in performance, but does not provide specific examples or advantages of using custom functions.",
+                            "evidence": [
+                                "Custom activation functions allow us to experiment with specialized mathematical transformations that may improve performance for particular tasks."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 2,
+                            "justification": "The candidate provides a basic overview of implementation and benefits but does not address drawbacks or potential issues of using custom activation functions.",
+                            "evidence": [
+                                "However, we need to consider differentiability, computational efficiency, numerical stability, and compatibility with automatic differentiation."
+                            ]
+                        },
+                        "strengths": [
+                            "The candidate provides clear and concise explanations for implementing custom activation functions in Python using different libraries."
+                        ],
+                        "weaknesses": [
+                            "The candidate does not provide detailed explanations or examples of drawbacks or potential issues with custom activation functions.",
+                            "The candidate's discussion on TensorFlow is less detailed compared to NumPy and PyTorch."
+                        ],
+                        "missing_concepts": [
+                            "The potential benefits of using custom activation functions (e.g., numerical stability, computational efficiency) are not discussed in detail."
+                        ],
+                        "incorrect_claims": [
+                            "The candidate does not explicitly state or imply that standard activation functions in libraries like TensorFlow or PyTorch are not differentiable or have numerical stability issues."
+                        ],
+                        "suggested_improvements": [
+                            "The candidate could provide specific examples of drawbacks or potential issues with custom activation functions, such as the need for careful consideration of differentiability and computational efficiency."
+                        ]
+                    },
+                    "overall_score": 2.67
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "You are working on a project that involves processing a large text corpus using Natural Language Processing (NLP). How would you design a pipeline to extract features from the text data using Python and NLP techniques such as tokenization, stemming, and lemmatization? What metrics would you use to evaluate the performance of your NLP pipeline, and why?",
+                "question_index": 1
+            },
+            {
+                "role": "candidate",
+                "content": "I dont know"
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "The candidate did not provide any answer, only stated 'I dont know'.",
+                            "evidence": [
+                                "I dont know"
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "The candidate did not provide any answer, only stated 'I dont know'.",
+                            "evidence": [
+                                "I dont know"
+                            ]
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "The candidate did not provide any answer, only stated 'I dont know'.",
+                            "evidence": [
+                                "I dont know"
+                            ]
+                        },
+                        "strengths": [],
+                        "weaknesses": [
+                            "The candidate did not provide a coherent answer to the question."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide a detailed answer to the question, including a pipeline design for text preprocessing, appropriate evaluation metrics, and an explanation of common NLP preprocessing techniques."
+                        ]
+                    },
+                    "overall_score": 0.0
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "Explain how you would leverage a Language Model (LLM) to answer a complex question that requires understanding of context. Provide an example where you used an LLM in a real-world scenario and describe the process of pre-processing the input, fine-tuning the model, and integrating it into your application. What challenges did you face and how did you overcome them?",
+                "question_index": 2
+            },
+            {
+                "role": "candidate",
+                "content": "I would use an LLM with a context-aware pipeline. First, I would preprocess the input by cleaning the text, splitting it into chunks, generating embeddings, and retrieving relevant information using semantic search. Then I would pass the retrieved context and the user's query to the LLM. Fine-tuning can be performed on domain-specific question-answer datasets to improve task performance, although for many knowledge-based applications, RAG is preferable because it allows updating the knowledge base without retraining. I would integrate the model through an API or backend service. Challenges could include hallucinations, latency, token limits, and API failures. I would address these using retrieval validation, prompt engineering, caching, monitoring, and error handling."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 3,
+                            "justification": "The candidate describes pre-processing steps such as text cleaning, chunking, generating embeddings, and retrieving relevant information using semantic search. The candidate mentions fine-tuning on domain-specific datasets for improved task performance. However, there is a lack of specific implementation details such as the exact nature of embeddings and the types of challenges encountered during fine-tuning. The candidate also mentions challenges such as hallucinations, latency, token limits, and API failures, which are relevant to the context.",
+                            "evidence": [
+                                "First, I would preprocess the input by cleaning the text, splitting it into chunks, generating embeddings, and retrieving relevant information using semantic search."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 3,
+                            "justification": "The candidate describes the pre-processing steps correctly and mentions fine-tuning on domain-specific datasets. However, there is a lack of specific implementation details. The candidate's description of challenges such as hallucinations, latency, token limits, and API failures is relevant to the context.",
+                            "evidence": [
+                                "I would integrate the model through an API or backend service.",
+                                "Challenges could include hallucinations, latency, token limits, and API failures."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 3,
+                            "justification": "The candidate mentions pre-processing steps, fine-tuning, and challenges. The candidate does not provide specific implementation details or real-world integration examples, which are expected answer points.",
+                            "evidence": [
+                                "First, I would preprocess the input by cleaning the text, splitting it into chunks, generating embeddings, and retrieving relevant information using semantic search."
+                            ]
+                        },
+                        "strengths": [
+                            "The candidate correctly identifies the challenges faced during the process of using LLM and the importance of fine-tuning the model for specific tasks."
+                        ],
+                        "weaknesses": [
+                            "The candidate lacks specific details about the pre-processing steps and the fine-tuning process, and does not provide a real-world example of using an LLM."
+                        ],
+                        "missing_concepts": [
+                            "Real-world example of using an LLM.",
+                            "Specific details about the pre-processing steps and fine-tuning process."
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Provide a real-world example of using an LLM and specific details about the pre-processing steps and fine-tuning process."
+                        ]
+                    },
+                    "overall_score": 3.0
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "Design a RAG (Retrieval-Augmented Generation) pipeline in Python. How would you handle the retrieval process, and what would be the steps to integrate the retrieval mechanism with your generative model? Provide an example of how you would use a pre-trained language model and a knowledge base (like a FAQ system) to generate responses to user queries. What are the trade-offs you would consider in this process?",
+                "question_index": 3
+            },
+            {
+                "role": "candidate",
+                "content": "Design a RAG pipeline in Python. Explain document ingestion, chunking, embeddings, vector database, retrieval, and how retrieved context is passed to the LLM. Give an FAQ chatbot example and discuss trade-offs such as retrieval accuracy, latency, cost, and context-window limitations."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 4,
+                            "justification": "The candidate covers the retrieval process, integration with a generative model, and provides an example of using a pre-trained model and knowledge base. However, the answer is more focused and does not provide as detailed a breakdown of the retrieval process as expected.",
+                            "evidence": [
+                                "Design a RAG pipeline in Python. Explain document ingestion, chunking, embeddings, vector database, retrieval, and how retrieved context is passed to the LLM."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 3,
+                            "justification": "The candidate explains the retrieval process and how to integrate a retrieval mechanism with a generative model, but lacks in-depth detail and specific steps for each component. The candidate does not provide a comprehensive breakdown of trade-offs.",
+                            "evidence": [
+                                "Design a RAG pipeline in Python. Explain document ingestion, chunking, embeddings, vector database, retrieval, and how retrieved context is passed to the LLM."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 2,
+                            "justification": "The candidate only covers the retrieval process and does not provide detailed steps for integration with a generative model or discuss the example of using a pre-trained model and knowledge base. There is also a lack of discussion about the trade-offs.",
+                            "evidence": [
+                                "Design a RAG pipeline in Python. Explain document ingestion, chunking, embeddings, vector database, retrieval, and how retrieved context is passed to the LLM."
+                            ]
+                        },
+                        "strengths": [
+                            "The candidate provides a basic understanding of the RAG pipeline concept and discusses a practical example of using a pre-trained model and knowledge base."
+                        ],
+                        "weaknesses": [
+                            "Lack of detailed explanation of the retrieval process and integration steps, and insufficient discussion of trade-offs."
+                        ],
+                        "missing_concepts": [
+                            "Detailed steps for integration with a generative model, specific example of using a pre-trained model and knowledge base, and specific discussion of trade-offs."
+                        ],
+                        "incorrect_claims": [
+                            "Not marked as incorrect claims, as the candidate's answer touches on these points but in a more generalized manner."
+                        ],
+                        "suggested_improvements": [
+                            "Provide specific examples of steps in the retrieval process, more detailed explanation of the integration steps, and a more comprehensive discussion of trade-offs."
+                        ]
+                    },
+                    "overall_score": 3.0
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "Explain how you would use LangChain to build a conversational AI system that can understand and respond to user queries based on a dataset of historical interactions. How would you implement a chatbot that can handle user intents and extract structured data from unstructured inputs using LangChain and FastAPI? Provide an example of how you would set up a FastAPI API to serve the chatbot, and discuss the integration of LangChain components in your solution.",
+                "question_index": 4
+            },
+            {
+                "role": "candidate",
+                "content": "I will use voice ai agent platform"
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "The candidate mentioned a 'voice ai agent platform', which does not address the use of LangChain or FastAPI for building a conversational AI system. The candidate did not provide any specific information about LangChain or FastAPI.",
+                            "evidence": [
+                                "I will use voice ai agent platform"
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "The candidate did not explain how to use LangChain for chatbot, how to integrate LangChain with FastAPI, or the setup of FastAPI API. The candidate's answer was completely unrelated to the expected points.",
+                            "evidence": [
+                                "I will use voice ai agent platform"
+                            ]
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "The candidate's answer did not provide any details on how to implement a chatbot using LangChain and FastAPI, or any setup of FastAPI API. The candidate's answer was irrelevant to the expected answer points.",
+                            "evidence": [
+                                "I will use voice ai agent platform"
+                            ]
+                        },
+                        "strengths": [],
+                        "weaknesses": [
+                            "The candidate's answer was completely off-topic and did not address the use of LangChain or FastAPI for building a conversational AI system. The candidate did not provide any relevant information to the expected points."
+                        ],
+                        "missing_concepts": [
+                            "LangChain components used for chatbot",
+                            "Integration of LangChain with FastAPI",
+                            "Setup of FastAPI API for serving chatbot"
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide an explanation of how to use LangChain for chatbot, how to integrate LangChain with FastAPI, and the setup of FastAPI API to serve the chatbot."
+                        ]
+                    },
+                    "overall_score": 0.0
+                }
+            }
+        ],
+        "answers": [
+            {
+                "question": "How would you implement a custom activation function in Python for a neural network model, and what are the benefits of using such a custom function compared to the standard activation functions available in libraries like TensorFlow or PyTorch?",
+                "answer": "A custom activation function can be implemented in Python using NumPy. For example, I can define a function like swish: f(x) = x * sigmoid(x), where sigmoid(x) = 1 / (1 + exp(-x)). In PyTorch, I can create a custom activation by subclassing nn.Module and implementing the forward method. In TensorFlow, I can define a custom function using TensorFlow operations. Custom activation functions allow us to experiment with specialized mathematical transformations that may improve performance for particular tasks. However, we need to consider differentiability, computational efficiency, numerical stability, and compatibility with automatic differentiation.",
+                "question_index": 0
+            },
+            {
+                "question": "You are working on a project that involves processing a large text corpus using Natural Language Processing (NLP). How would you design a pipeline to extract features from the text data using Python and NLP techniques such as tokenization, stemming, and lemmatization? What metrics would you use to evaluate the performance of your NLP pipeline, and why?",
+                "answer": "I dont know",
+                "question_index": 1
+            },
+            {
+                "question": "Explain how you would leverage a Language Model (LLM) to answer a complex question that requires understanding of context. Provide an example where you used an LLM in a real-world scenario and describe the process of pre-processing the input, fine-tuning the model, and integrating it into your application. What challenges did you face and how did you overcome them?",
+                "answer": "I would use an LLM with a context-aware pipeline. First, I would preprocess the input by cleaning the text, splitting it into chunks, generating embeddings, and retrieving relevant information using semantic search. Then I would pass the retrieved context and the user's query to the LLM. Fine-tuning can be performed on domain-specific question-answer datasets to improve task performance, although for many knowledge-based applications, RAG is preferable because it allows updating the knowledge base without retraining. I would integrate the model through an API or backend service. Challenges could include hallucinations, latency, token limits, and API failures. I would address these using retrieval validation, prompt engineering, caching, monitoring, and error handling.",
+                "question_index": 2
+            },
+            {
+                "question": "Design a RAG (Retrieval-Augmented Generation) pipeline in Python. How would you handle the retrieval process, and what would be the steps to integrate the retrieval mechanism with your generative model? Provide an example of how you would use a pre-trained language model and a knowledge base (like a FAQ system) to generate responses to user queries. What are the trade-offs you would consider in this process?",
+                "answer": "Design a RAG pipeline in Python. Explain document ingestion, chunking, embeddings, vector database, retrieval, and how retrieved context is passed to the LLM. Give an FAQ chatbot example and discuss trade-offs such as retrieval accuracy, latency, cost, and context-window limitations.",
+                "question_index": 3
+            },
+            {
+                "question": "Explain how you would use LangChain to build a conversational AI system that can understand and respond to user queries based on a dataset of historical interactions. How would you implement a chatbot that can handle user intents and extract structured data from unstructured inputs using LangChain and FastAPI? Provide an example of how you would set up a FastAPI API to serve the chatbot, and discuss the integration of LangChain components in your solution.",
+                "answer": "I will use voice ai agent platform",
+                "question_index": 4
+            }
+        ],
+        "evaluations": [
+            {
+                "question_index": 0,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 3,
+                        "justification": "The candidate correctly explains how to implement a custom activation function using NumPy and PyTorch. They also touch on TensorFlow, though not in the same level of detail as NumPy or PyTorch.",
+                        "evidence": [
+                            "A custom activation function can be implemented in Python using NumPy. For example, I can define a function like swish: f(x) = x * sigmoid(x), where sigmoid(x) = 1 / (1 + exp(-x)). In PyTorch, I can create a custom activation by subclassing nn.Module and implementing the forward method. In TensorFlow, I can define a custom function using TensorFlow operations."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 3,
+                        "justification": "The candidate demonstrates understanding of using custom activation functions for experimentation and potential improvements in performance, but does not provide specific examples or advantages of using custom functions.",
+                        "evidence": [
+                            "Custom activation functions allow us to experiment with specialized mathematical transformations that may improve performance for particular tasks."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "justification": "The candidate provides a basic overview of implementation and benefits but does not address drawbacks or potential issues of using custom activation functions.",
+                        "evidence": [
+                            "However, we need to consider differentiability, computational efficiency, numerical stability, and compatibility with automatic differentiation."
+                        ]
+                    },
+                    "strengths": [
+                        "The candidate provides clear and concise explanations for implementing custom activation functions in Python using different libraries."
+                    ],
+                    "weaknesses": [
+                        "The candidate does not provide detailed explanations or examples of drawbacks or potential issues with custom activation functions.",
+                        "The candidate's discussion on TensorFlow is less detailed compared to NumPy and PyTorch."
+                    ],
+                    "missing_concepts": [
+                        "The potential benefits of using custom activation functions (e.g., numerical stability, computational efficiency) are not discussed in detail."
+                    ],
+                    "incorrect_claims": [
+                        "The candidate does not explicitly state or imply that standard activation functions in libraries like TensorFlow or PyTorch are not differentiable or have numerical stability issues."
+                    ],
+                    "suggested_improvements": [
+                        "The candidate could provide specific examples of drawbacks or potential issues with custom activation functions, such as the need for careful consideration of differentiability and computational efficiency."
+                    ]
+                },
+                "overall_score": 2.67
+            },
+            {
+                "question_index": 1,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "The candidate did not provide any answer, only stated 'I dont know'.",
+                        "evidence": [
+                            "I dont know"
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "The candidate did not provide any answer, only stated 'I dont know'.",
+                        "evidence": [
+                            "I dont know"
+                        ]
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "The candidate did not provide any answer, only stated 'I dont know'.",
+                        "evidence": [
+                            "I dont know"
+                        ]
+                    },
+                    "strengths": [],
+                    "weaknesses": [
+                        "The candidate did not provide a coherent answer to the question."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide a detailed answer to the question, including a pipeline design for text preprocessing, appropriate evaluation metrics, and an explanation of common NLP preprocessing techniques."
+                    ]
+                },
+                "overall_score": 0.0
+            },
+            {
+                "question_index": 2,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 3,
+                        "justification": "The candidate describes pre-processing steps such as text cleaning, chunking, generating embeddings, and retrieving relevant information using semantic search. The candidate mentions fine-tuning on domain-specific datasets for improved task performance. However, there is a lack of specific implementation details such as the exact nature of embeddings and the types of challenges encountered during fine-tuning. The candidate also mentions challenges such as hallucinations, latency, token limits, and API failures, which are relevant to the context.",
+                        "evidence": [
+                            "First, I would preprocess the input by cleaning the text, splitting it into chunks, generating embeddings, and retrieving relevant information using semantic search."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 3,
+                        "justification": "The candidate describes the pre-processing steps correctly and mentions fine-tuning on domain-specific datasets. However, there is a lack of specific implementation details. The candidate's description of challenges such as hallucinations, latency, token limits, and API failures is relevant to the context.",
+                        "evidence": [
+                            "I would integrate the model through an API or backend service.",
+                            "Challenges could include hallucinations, latency, token limits, and API failures."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "justification": "The candidate mentions pre-processing steps, fine-tuning, and challenges. The candidate does not provide specific implementation details or real-world integration examples, which are expected answer points.",
+                        "evidence": [
+                            "First, I would preprocess the input by cleaning the text, splitting it into chunks, generating embeddings, and retrieving relevant information using semantic search."
+                        ]
+                    },
+                    "strengths": [
+                        "The candidate correctly identifies the challenges faced during the process of using LLM and the importance of fine-tuning the model for specific tasks."
+                    ],
+                    "weaknesses": [
+                        "The candidate lacks specific details about the pre-processing steps and the fine-tuning process, and does not provide a real-world example of using an LLM."
+                    ],
+                    "missing_concepts": [
+                        "Real-world example of using an LLM.",
+                        "Specific details about the pre-processing steps and fine-tuning process."
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Provide a real-world example of using an LLM and specific details about the pre-processing steps and fine-tuning process."
+                    ]
+                },
+                "overall_score": 3.0
+            },
+            {
+                "question_index": 3,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 4,
+                        "justification": "The candidate covers the retrieval process, integration with a generative model, and provides an example of using a pre-trained model and knowledge base. However, the answer is more focused and does not provide as detailed a breakdown of the retrieval process as expected.",
+                        "evidence": [
+                            "Design a RAG pipeline in Python. Explain document ingestion, chunking, embeddings, vector database, retrieval, and how retrieved context is passed to the LLM."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 3,
+                        "justification": "The candidate explains the retrieval process and how to integrate a retrieval mechanism with a generative model, but lacks in-depth detail and specific steps for each component. The candidate does not provide a comprehensive breakdown of trade-offs.",
+                        "evidence": [
+                            "Design a RAG pipeline in Python. Explain document ingestion, chunking, embeddings, vector database, retrieval, and how retrieved context is passed to the LLM."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 2,
+                        "justification": "The candidate only covers the retrieval process and does not provide detailed steps for integration with a generative model or discuss the example of using a pre-trained model and knowledge base. There is also a lack of discussion about the trade-offs.",
+                        "evidence": [
+                            "Design a RAG pipeline in Python. Explain document ingestion, chunking, embeddings, vector database, retrieval, and how retrieved context is passed to the LLM."
+                        ]
+                    },
+                    "strengths": [
+                        "The candidate provides a basic understanding of the RAG pipeline concept and discusses a practical example of using a pre-trained model and knowledge base."
+                    ],
+                    "weaknesses": [
+                        "Lack of detailed explanation of the retrieval process and integration steps, and insufficient discussion of trade-offs."
+                    ],
+                    "missing_concepts": [
+                        "Detailed steps for integration with a generative model, specific example of using a pre-trained model and knowledge base, and specific discussion of trade-offs."
+                    ],
+                    "incorrect_claims": [
+                        "Not marked as incorrect claims, as the candidate's answer touches on these points but in a more generalized manner."
+                    ],
+                    "suggested_improvements": [
+                        "Provide specific examples of steps in the retrieval process, more detailed explanation of the integration steps, and a more comprehensive discussion of trade-offs."
+                    ]
+                },
+                "overall_score": 3.0
+            },
+            {
+                "question_index": 4,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "The candidate mentioned a 'voice ai agent platform', which does not address the use of LangChain or FastAPI for building a conversational AI system. The candidate did not provide any specific information about LangChain or FastAPI.",
+                        "evidence": [
+                            "I will use voice ai agent platform"
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "The candidate did not explain how to use LangChain for chatbot, how to integrate LangChain with FastAPI, or the setup of FastAPI API. The candidate's answer was completely unrelated to the expected points.",
+                        "evidence": [
+                            "I will use voice ai agent platform"
+                        ]
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "The candidate's answer did not provide any details on how to implement a chatbot using LangChain and FastAPI, or any setup of FastAPI API. The candidate's answer was irrelevant to the expected answer points.",
+                        "evidence": [
+                            "I will use voice ai agent platform"
+                        ]
+                    },
+                    "strengths": [],
+                    "weaknesses": [
+                        "The candidate's answer was completely off-topic and did not address the use of LangChain or FastAPI for building a conversational AI system. The candidate did not provide any relevant information to the expected points."
+                    ],
+                    "missing_concepts": [
+                        "LangChain components used for chatbot",
+                        "Integration of LangChain with FastAPI",
+                        "Setup of FastAPI API for serving chatbot"
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide an explanation of how to use LangChain for chatbot, how to integrate LangChain with FastAPI, and the setup of FastAPI API to serve the chatbot."
+                    ]
+                },
+                "overall_score": 0.0
+            }
+        ],
+        "interview_status": "completed",
+        "next_action": "finish",
+        "error_message": null
+    },
+    "created_at": "2026-11-02 21:38:13.932247",
+    "updated_at": "2026-11-02 22:30:03.312509"
+}

@@ -1,0 +1,742 @@
+{
+    "id": "a5059d87-f160-4d26-9f54-e238e8598d59",
+    "candidate_name": "Rutvik",
+    "status": "completed",
+    "state_data": {
+        "session_id": "a5059d87-f160-4d26-9f54-e238e8598d59",
+        "candidate_name": "Rutvik",
+        "candidate_profile": "AI Engineer Intern with practical experience in Python, machine learning, and generative AI. Built advanced RAG pipelines using hybrid retrieval, vector databases, embeddings, and reranking. Developed AI applications using LangChain, LangGraph, and FastAPI. Experienced in LLM integration, prompt engineering, workflow automation, and REST APIs.",
+        "job_description": "We are hiring an AI Engineer skilled in Python, machine learning, deep learning, NLP, LLMs, RAG, LangChain, LangGraph, FastAPI, and REST API development. The candidate should have experience building AI applications, integrating models, and evaluating system performance.",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "NLP",
+            "LLMs",
+            "RAG",
+            "LangChain",
+            "LangGraph",
+            "FastAPI"
+        ],
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline. Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.  Specifically, consider a user query related to ‘sustainable energy investments’.",
+                "skill": "RAG",
+                "category": "scenario",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Explanation of hybrid retrieval – combining dense (e.g., embeddings) and sparse (e.g., keyword search) retrieval.",
+                    "Discussion of weighting factors – exploring metrics like precision, recall, and latency.",
+                    "Justification for weighting choices based on the query and desired system behavior (e.g., prioritizing recall for a broad topic like ‘sustainable energy investments’)."
+                ],
+                "evaluation_criteria": [
+                    "Demonstrates understanding of RAG architecture and hybrid retrieval concepts.",
+                    "Shows ability to analyze trade-offs between recall and latency.",
+                    "Provides a logical rationale for weighting strategies."
+                ]
+            },
+            {
+                "question": "You are tasked with integrating a large language model (LLM) into a LangChain application to generate creative marketing copy. The LLM’s output is often verbose and lacks a specific brand voice. Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency. What LangChain components would you leverage?",
+                "skill": "LLMs, LangChain",
+                "category": "technical",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Discussion of prompt engineering techniques – e.g., few-shot learning, chain-of-thought prompting, specifying output format.",
+                    "Explaining how to incorporate brand guidelines and tone of voice into prompts.",
+                    "Identification of relevant LangChain components – e.g., Chains, Prompts, OutputParsers."
+                ],
+                "evaluation_criteria": [
+                    "Illustrates knowledge of LLM prompting best practices.",
+                    "Shows an understanding of how LangChain facilitates LLM integration.",
+                    "Demonstrates an ability to design effective prompts for specific tasks."
+                ]
+            },
+            {
+                "question": "Write a simplified Python function that takes a dictionary representing a REST API request (e.g., `{'method': 'GET', 'path': '/users', 'params': {'id': 123}}`) and returns a formatted string representing the equivalent URL for that request. Assume the base URL is `https://api.example.com`.",
+                "skill": "FastAPI",
+                "category": "coding",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Correctly constructs the URL based on the input dictionary.",
+                    "Handles potential errors (e.g., missing keys gracefully).",
+                    "Provides clear and concise code."
+                ],
+                "evaluation_criteria": [
+                    "Code correctness and functionality.",
+                    "Code readability and style.",
+                    "Error handling (if implemented)."
+                ]
+            }
+        ],
+        "current_question_index": 2,
+        "max_questions": 3,
+        "current_question": {
+            "question": "Write a simplified Python function that takes a dictionary representing a REST API request (e.g., `{'method': 'GET', 'path': '/users', 'params': {'id': 123}}`) and returns a formatted string representing the equivalent URL for that request. Assume the base URL is `https://api.example.com`.",
+            "skill": "FastAPI",
+            "category": "coding",
+            "difficulty": "medium",
+            "expected_answer_points": [
+                "Correctly constructs the URL based on the input dictionary.",
+                "Handles potential errors (e.g., missing keys gracefully).",
+                "Provides clear and concise code."
+            ],
+            "evaluation_criteria": [
+                "Code correctness and functionality.",
+                "Code readability and style.",
+                "Error handling (if implemented)."
+            ]
+        },
+        "candidate_answer": "Main question: Write a simplified Python function that takes a dictionary representing a REST API request (e.g., `{'method': 'GET', 'path': '/users', 'params': {'id': 123}}`) and returns a formatted string representing the equivalent URL for that request. Assume the base URL is `https://api.example.com`.\nCandidate answer: Can you please you go back or shall I?\n\nFollow-up question: The candidate's response is unclear. Please provide the Python function you would write to fulfill this requirement.\nCandidate response: I will see you soon, and we will come as the descendant of the world.\n\nFollow-up question: Could you please provide the Python function you would write to fulfill this requirement?\nCandidate response: You find the baby and the children of the pre-priori, as the pre-priori wants to be scared of more.",
+        "current_evaluation": {
+            "evaluation": {
+                "category_score": {
+                    "score": 0,
+                    "justification": "Category score: 0/5. Rubric results: 0/3 covered, 0 partially covered, 3 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                    "evidence": []
+                },
+                "technical_correctness": {
+                    "score": 0,
+                    "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                    "evidence": []
+                },
+                "conceptual_understanding": {
+                    "score": 0,
+                    "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                    "evidence": []
+                },
+                "completeness": {
+                    "score": 0,
+                    "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                    "evidence": []
+                },
+                "expected_point_evaluations": [
+                    {
+                        "expected_point": "Correctly constructs the URL based on the input dictionary.",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Handles potential errors (e.g., missing keys gracefully).",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    },
+                    {
+                        "expected_point": "Provides clear and concise code.",
+                        "status": "missing",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified missing coverage."
+                    }
+                ],
+                "strengths": [],
+                "weaknesses": [
+                    "Correctly constructs the URL based on the input dictionary.",
+                    "Handles potential errors (e.g., missing keys gracefully).",
+                    "Provides clear and concise code."
+                ],
+                "missing_concepts": [
+                    "Correctly constructs the URL based on the input dictionary.",
+                    "Handles potential errors (e.g., missing keys gracefully).",
+                    "Provides clear and concise code."
+                ],
+                "incorrect_claims": [],
+                "suggested_improvements": [
+                    "Strengthen your explanation of: Correctly constructs the URL based on the input dictionary.",
+                    "Strengthen your explanation of: Handles potential errors (e.g., missing keys gracefully).",
+                    "Strengthen your explanation of: Provides clear and concise code."
+                ]
+            },
+            "overall_score": 0.0
+        },
+        "conversation_history": [
+            {
+                "role": "interviewer",
+                "content": "Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline. Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.  Specifically, consider a user query related to ‘sustainable energy investments’.",
+                "question_index": 0
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline. Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.  Specifically, consider a user query related to ‘sustainable energy investments’.\nCandidate answer: Don't know what I'm about to say this genie.  I'm really about to say this genie.  Don't know what I'm saying this genie.  Don't know what I'm saying this genie.\n\nFollow-up question: Okay, let's delve deeper. Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them? For example, what kind of vector database would you select, and what data would you index for each retrieval method?\nCandidate response: Okay, uh, the mission will close and be so ready to close, click to your platform and  about 8.5 Oh, I forgot to mention I got a hands on a student's own care house, my own building agent. How the engine works, how to move, to ICO, to skidging length of 1.6 gram.\n\nFollow-up question: You mentioned using dense and sparse retrieval. Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose? Specifically, what embedding model would you use, and what considerations would drive your selection?\nCandidate response: Are you sure?",
+                "question_index": 0
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "category_score": {
+                            "score": 2,
+                            "justification": "Category score: 2/5. Rubric results: 2/3 covered, 1 partially covered, 0 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                            "evidence": [
+                                "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                                "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                                "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                                "Follow-up question: You mentioned using dense and sparse retrieval.",
+                                "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?",
+                                "Specifically, consider a user query related to ‘sustainable energy investments’."
+                            ]
+                        },
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                            "evidence": [
+                                "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                                "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                                "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                                "Follow-up question: You mentioned using dense and sparse retrieval.",
+                                "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?",
+                                "Specifically, consider a user query related to ‘sustainable energy investments’."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                            "evidence": [
+                                "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                                "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                                "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                                "Follow-up question: You mentioned using dense and sparse retrieval.",
+                                "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?",
+                                "Specifically, consider a user query related to ‘sustainable energy investments’."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 4,
+                            "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                                "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                                "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                                "Follow-up question: You mentioned using dense and sparse retrieval.",
+                                "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?",
+                                "Specifically, consider a user query related to ‘sustainable energy investments’."
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Explanation of hybrid retrieval – combining dense (e.g., embeddings) and sparse (e.g., keyword search) retrieval.",
+                                "status": "covered",
+                                "evidence": [
+                                    "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                                    "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                                    "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                                    "Follow-up question: You mentioned using dense and sparse retrieval.",
+                                    "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Discussion of weighting factors – exploring metrics like precision, recall, and latency.",
+                                "status": "partially_covered",
+                                "evidence": [
+                                    "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency."
+                                ],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Justification for weighting choices based on the query and desired system behavior (e.g., prioritizing recall for a broad topic like ‘sustainable energy investments’).",
+                                "status": "covered",
+                                "evidence": [
+                                    "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                                    "Specifically, consider a user query related to ‘sustainable energy investments’.",
+                                    "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            }
+                        ],
+                        "strengths": [
+                            "Explanation of hybrid retrieval – combining dense (e.g., embeddings) and sparse (e.g., keyword search) retrieval.",
+                            "Justification for weighting choices based on the query and desired system behavior (e.g., prioritizing recall for a broad topic like ‘sustainable energy investments’)."
+                        ],
+                        "weaknesses": [
+                            "Discussion of weighting factors – exploring metrics like precision, recall, and latency."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [
+                            "Statements regarding 'hands-on a student's own care house, my own building agent'",
+                            "Unsubstantiated claims about the 'engine works, how to move, to ICO, to skidging length of 1.6 gram'."
+                        ],
+                        "suggested_improvements": [
+                            "Strengthen your explanation of: Discussion of weighting factors – exploring metrics like precision, recall, and latency."
+                        ]
+                    },
+                    "overall_score": 2.0
+                },
+                "question_index": 0
+            },
+            {
+                "role": "interviewer",
+                "content": "You are tasked with integrating a large language model (LLM) into a LangChain application to generate creative marketing copy. The LLM’s output is often verbose and lacks a specific brand voice. Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency. What LangChain components would you leverage?",
+                "question_index": 1
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: You are tasked with integrating a large language model (LLM) into a LangChain application to generate creative marketing copy. The LLM’s output is often verbose and lacks a specific brand voice. Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency. What LangChain components would you leverage?\nCandidate answer: I used dancer Trillon and being going to fire Trillon as a dancer Trillon, wore consummate  such, and he wore that and being going to fire.\n\nFollow-up question: The candidate's initial response is largely irrelevant. Let's focus on the core task. Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy? Please provide examples of prompt structures you might employ.\nCandidate response: What's on your sub chain? And so that it helped some ordinary drinker, for the context from the local mix, I use what  Calcutta was horse-coming dead-eat-a, a-s-coulding-day-middings.\n\nFollow-up question: Let's focus on prompt engineering. Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format? Please provide a concrete example of a prompt you'd use for generating a social media post.\nCandidate response: I could support them, but in fact, I use the credit of this, and I know. He is dead son.",
+                "question_index": 1
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "category_score": {
+                            "score": 2,
+                            "justification": "Category score: 2/5. Rubric results: 2/3 covered, 1 partially covered, 0 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                            "evidence": [
+                                "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                                "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                                "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?",
+                                "What LangChain components would you leverage?"
+                            ]
+                        },
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                            "evidence": [
+                                "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                                "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                                "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?",
+                                "What LangChain components would you leverage?"
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                            "evidence": [
+                                "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                                "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                                "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?",
+                                "What LangChain components would you leverage?"
+                            ]
+                        },
+                        "completeness": {
+                            "score": 4,
+                            "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                                "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                                "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?",
+                                "What LangChain components would you leverage?"
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Discussion of prompt engineering techniques – e.g., few-shot learning, chain-of-thought prompting, specifying output format.",
+                                "status": "covered",
+                                "evidence": [
+                                    "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                                    "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                                    "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Explaining how to incorporate brand guidelines and tone of voice into prompts.",
+                                "status": "covered",
+                                "evidence": [
+                                    "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                                    "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Identification of relevant LangChain components – e.g., Chains, Prompts, OutputParsers.",
+                                "status": "partially_covered",
+                                "evidence": [
+                                    "What LangChain components would you leverage?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            }
+                        ],
+                        "strengths": [
+                            "Discussion of prompt engineering techniques – e.g., few-shot learning, chain-of-thought prompting, specifying output format.",
+                            "Explaining how to incorporate brand guidelines and tone of voice into prompts."
+                        ],
+                        "weaknesses": [
+                            "Identification of relevant LangChain components – e.g., Chains, Prompts, OutputParsers."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [
+                            "All statements made by the candidate are factually and technically incorrect."
+                        ],
+                        "suggested_improvements": [
+                            "Strengthen your explanation of: Identification of relevant LangChain components – e.g., Chains, Prompts, OutputParsers."
+                        ]
+                    },
+                    "overall_score": 2.0
+                },
+                "question_index": 1
+            },
+            {
+                "role": "interviewer",
+                "content": "Write a simplified Python function that takes a dictionary representing a REST API request (e.g., `{'method': 'GET', 'path': '/users', 'params': {'id': 123}}`) and returns a formatted string representing the equivalent URL for that request. Assume the base URL is `https://api.example.com`.",
+                "question_index": 2
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: Write a simplified Python function that takes a dictionary representing a REST API request (e.g., `{'method': 'GET', 'path': '/users', 'params': {'id': 123}}`) and returns a formatted string representing the equivalent URL for that request. Assume the base URL is `https://api.example.com`.\nCandidate answer: Can you please you go back or shall I?\n\nFollow-up question: The candidate's response is unclear. Please provide the Python function you would write to fulfill this requirement.\nCandidate response: I will see you soon, and we will come as the descendant of the world.\n\nFollow-up question: Could you please provide the Python function you would write to fulfill this requirement?\nCandidate response: You find the baby and the children of the pre-priori, as the pre-priori wants to be scared of more.",
+                "question_index": 2
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "category_score": {
+                            "score": 0,
+                            "justification": "Category score: 0/5. Rubric results: 0/3 covered, 0 partially covered, 3 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                            "evidence": []
+                        },
+                        "technical_correctness": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                            "evidence": []
+                        },
+                        "conceptual_understanding": {
+                            "score": 0,
+                            "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                            "evidence": []
+                        },
+                        "completeness": {
+                            "score": 0,
+                            "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                            "evidence": []
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Correctly constructs the URL based on the input dictionary.",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Handles potential errors (e.g., missing keys gracefully).",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            },
+                            {
+                                "expected_point": "Provides clear and concise code.",
+                                "status": "missing",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified missing coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "Correctly constructs the URL based on the input dictionary.",
+                            "Handles potential errors (e.g., missing keys gracefully).",
+                            "Provides clear and concise code."
+                        ],
+                        "missing_concepts": [
+                            "Correctly constructs the URL based on the input dictionary.",
+                            "Handles potential errors (e.g., missing keys gracefully).",
+                            "Provides clear and concise code."
+                        ],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "Strengthen your explanation of: Correctly constructs the URL based on the input dictionary.",
+                            "Strengthen your explanation of: Handles potential errors (e.g., missing keys gracefully).",
+                            "Strengthen your explanation of: Provides clear and concise code."
+                        ]
+                    },
+                    "overall_score": 0.0
+                },
+                "question_index": 2
+            }
+        ],
+        "answers": [
+            {
+                "question": "Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline. Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.  Specifically, consider a user query related to ‘sustainable energy investments’.",
+                "answer": "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline. Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.  Specifically, consider a user query related to ‘sustainable energy investments’.\nCandidate answer: Don't know what I'm about to say this genie.  I'm really about to say this genie.  Don't know what I'm saying this genie.  Don't know what I'm saying this genie.\n\nFollow-up question: Okay, let's delve deeper. Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them? For example, what kind of vector database would you select, and what data would you index for each retrieval method?\nCandidate response: Okay, uh, the mission will close and be so ready to close, click to your platform and  about 8.5 Oh, I forgot to mention I got a hands on a student's own care house, my own building agent. How the engine works, how to move, to ICO, to skidging length of 1.6 gram.\n\nFollow-up question: You mentioned using dense and sparse retrieval. Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose? Specifically, what embedding model would you use, and what considerations would drive your selection?\nCandidate response: Are you sure?",
+                "question_index": 0
+            },
+            {
+                "question": "You are tasked with integrating a large language model (LLM) into a LangChain application to generate creative marketing copy. The LLM’s output is often verbose and lacks a specific brand voice. Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency. What LangChain components would you leverage?",
+                "answer": "Main question: You are tasked with integrating a large language model (LLM) into a LangChain application to generate creative marketing copy. The LLM’s output is often verbose and lacks a specific brand voice. Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency. What LangChain components would you leverage?\nCandidate answer: I used dancer Trillon and being going to fire Trillon as a dancer Trillon, wore consummate  such, and he wore that and being going to fire.\n\nFollow-up question: The candidate's initial response is largely irrelevant. Let's focus on the core task. Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy? Please provide examples of prompt structures you might employ.\nCandidate response: What's on your sub chain? And so that it helped some ordinary drinker, for the context from the local mix, I use what  Calcutta was horse-coming dead-eat-a, a-s-coulding-day-middings.\n\nFollow-up question: Let's focus on prompt engineering. Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format? Please provide a concrete example of a prompt you'd use for generating a social media post.\nCandidate response: I could support them, but in fact, I use the credit of this, and I know. He is dead son.",
+                "question_index": 1
+            },
+            {
+                "question": "Write a simplified Python function that takes a dictionary representing a REST API request (e.g., `{'method': 'GET', 'path': '/users', 'params': {'id': 123}}`) and returns a formatted string representing the equivalent URL for that request. Assume the base URL is `https://api.example.com`.",
+                "answer": "Main question: Write a simplified Python function that takes a dictionary representing a REST API request (e.g., `{'method': 'GET', 'path': '/users', 'params': {'id': 123}}`) and returns a formatted string representing the equivalent URL for that request. Assume the base URL is `https://api.example.com`.\nCandidate answer: Can you please you go back or shall I?\n\nFollow-up question: The candidate's response is unclear. Please provide the Python function you would write to fulfill this requirement.\nCandidate response: I will see you soon, and we will come as the descendant of the world.\n\nFollow-up question: Could you please provide the Python function you would write to fulfill this requirement?\nCandidate response: You find the baby and the children of the pre-priori, as the pre-priori wants to be scared of more.",
+                "question_index": 2
+            }
+        ],
+        "evaluations": [
+            {
+                "question_index": 0,
+                "evaluation": {
+                    "category_score": {
+                        "score": 2,
+                        "justification": "Category score: 2/5. Rubric results: 2/3 covered, 1 partially covered, 0 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                        "evidence": [
+                            "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                            "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                            "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                            "Follow-up question: You mentioned using dense and sparse retrieval.",
+                            "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?",
+                            "Specifically, consider a user query related to ‘sustainable energy investments’."
+                        ]
+                    },
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                        "evidence": [
+                            "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                            "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                            "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                            "Follow-up question: You mentioned using dense and sparse retrieval.",
+                            "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?",
+                            "Specifically, consider a user query related to ‘sustainable energy investments’."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                        "evidence": [
+                            "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                            "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                            "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                            "Follow-up question: You mentioned using dense and sparse retrieval.",
+                            "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?",
+                            "Specifically, consider a user query related to ‘sustainable energy investments’."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                            "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                            "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                            "Follow-up question: You mentioned using dense and sparse retrieval.",
+                            "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?",
+                            "Specifically, consider a user query related to ‘sustainable energy investments’."
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Explanation of hybrid retrieval – combining dense (e.g., embeddings) and sparse (e.g., keyword search) retrieval.",
+                            "status": "covered",
+                            "evidence": [
+                                "Main question: Describe a scenario where you might utilize a hybrid retrieval strategy within a RAG pipeline.",
+                                "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                                "Can you elaborate on the specific types of dense and sparse retrieval you would consider in this scenario, and why you'd choose them?",
+                                "Follow-up question: You mentioned using dense and sparse retrieval.",
+                                "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Discussion of weighting factors – exploring metrics like precision, recall, and latency.",
+                            "status": "partially_covered",
+                            "evidence": [
+                                "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency."
+                            ],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Justification for weighting choices based on the query and desired system behavior (e.g., prioritizing recall for a broad topic like ‘sustainable energy investments’).",
+                            "status": "covered",
+                            "evidence": [
+                                "Detail the components involved (e.g., dense and sparse retrieval) and explain how you would determine the optimal weighting between them to balance recall and latency.",
+                                "Specifically, consider a user query related to ‘sustainable energy investments’.",
+                                "Could you elaborate on the specific dense retrieval methods you’d employ for the ‘sustainable energy investments’ query, and what vector database you’d choose?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        }
+                    ],
+                    "strengths": [
+                        "Explanation of hybrid retrieval – combining dense (e.g., embeddings) and sparse (e.g., keyword search) retrieval.",
+                        "Justification for weighting choices based on the query and desired system behavior (e.g., prioritizing recall for a broad topic like ‘sustainable energy investments’)."
+                    ],
+                    "weaknesses": [
+                        "Discussion of weighting factors – exploring metrics like precision, recall, and latency."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [
+                        "Statements regarding 'hands-on a student's own care house, my own building agent'",
+                        "Unsubstantiated claims about the 'engine works, how to move, to ICO, to skidging length of 1.6 gram'."
+                    ],
+                    "suggested_improvements": [
+                        "Strengthen your explanation of: Discussion of weighting factors – exploring metrics like precision, recall, and latency."
+                    ]
+                },
+                "overall_score": 2.0
+            },
+            {
+                "question_index": 1,
+                "evaluation": {
+                    "category_score": {
+                        "score": 2,
+                        "justification": "Category score: 2/5. Rubric results: 2/3 covered, 1 partially covered, 0 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                        "evidence": [
+                            "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                            "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                            "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?",
+                            "What LangChain components would you leverage?"
+                        ]
+                    },
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                        "evidence": [
+                            "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                            "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                            "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?",
+                            "What LangChain components would you leverage?"
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                        "evidence": [
+                            "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                            "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                            "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?",
+                            "What LangChain components would you leverage?"
+                        ]
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                            "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                            "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?",
+                            "What LangChain components would you leverage?"
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Discussion of prompt engineering techniques – e.g., few-shot learning, chain-of-thought prompting, specifying output format.",
+                            "status": "covered",
+                            "evidence": [
+                                "Outline your approach to prompt engineering to address this, including techniques you would employ to constrain the LLM’s response and ensure brand consistency.",
+                                "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                                "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Explaining how to incorporate brand guidelines and tone of voice into prompts.",
+                            "status": "covered",
+                            "evidence": [
+                                "Can you elaborate on the specific prompt engineering techniques you would use to constrain the LLM's output and ensure brand consistency, given the initial problem of verbose and voice-deficient copy?",
+                                "Could you describe a few different prompt structures you might use, including how you'd incorporate elements like brand guidelines, target audience, and desired output format?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Identification of relevant LangChain components – e.g., Chains, Prompts, OutputParsers.",
+                            "status": "partially_covered",
+                            "evidence": [
+                                "What LangChain components would you leverage?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        }
+                    ],
+                    "strengths": [
+                        "Discussion of prompt engineering techniques – e.g., few-shot learning, chain-of-thought prompting, specifying output format.",
+                        "Explaining how to incorporate brand guidelines and tone of voice into prompts."
+                    ],
+                    "weaknesses": [
+                        "Identification of relevant LangChain components – e.g., Chains, Prompts, OutputParsers."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [
+                        "All statements made by the candidate are factually and technically incorrect."
+                    ],
+                    "suggested_improvements": [
+                        "Strengthen your explanation of: Identification of relevant LangChain components – e.g., Chains, Prompts, OutputParsers."
+                    ]
+                },
+                "overall_score": 2.0
+            },
+            {
+                "question_index": 2,
+                "evaluation": {
+                    "category_score": {
+                        "score": 0,
+                        "justification": "Category score: 0/5. Rubric results: 0/3 covered, 0 partially covered, 3 missing, 0 incorrect, and 0 not assessed. The score combines rubric coverage with category-specific quality assessment.",
+                        "evidence": []
+                    },
+                    "technical_correctness": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's technical correctness assessment.",
+                        "evidence": []
+                    },
+                    "conceptual_understanding": {
+                        "score": 0,
+                        "justification": "Score combines deterministic rubric coverage with the LLM's conceptual understanding assessment.",
+                        "evidence": []
+                    },
+                    "completeness": {
+                        "score": 0,
+                        "justification": "Completeness is calculated from deterministic expected-point coverage.",
+                        "evidence": []
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Correctly constructs the URL based on the input dictionary.",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Handles potential errors (e.g., missing keys gracefully).",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        },
+                        {
+                            "expected_point": "Provides clear and concise code.",
+                            "status": "missing",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified missing coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "Correctly constructs the URL based on the input dictionary.",
+                        "Handles potential errors (e.g., missing keys gracefully).",
+                        "Provides clear and concise code."
+                    ],
+                    "missing_concepts": [
+                        "Correctly constructs the URL based on the input dictionary.",
+                        "Handles potential errors (e.g., missing keys gracefully).",
+                        "Provides clear and concise code."
+                    ],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "Strengthen your explanation of: Correctly constructs the URL based on the input dictionary.",
+                        "Strengthen your explanation of: Handles potential errors (e.g., missing keys gracefully).",
+                        "Strengthen your explanation of: Provides clear and concise code."
+                    ]
+                },
+                "overall_score": 0.0
+            }
+        ],
+        "interview_status": "completed",
+        "next_action": "finish",
+        "error_message": null,
+        "communication_evaluation": {
+            "score": 20,
+            "justification": "The candidate demonstrates a severe lack of clarity and coherence throughout the entire interview. They frequently struggle to formulate coherent responses, often repeating phrases or exhibiting a disjointed thought process. Their responses are largely irrelevant to the questions posed, and they appear to be struggling to understand the task requirements. There is no evidence of structured thinking or the ability to articulate technical concepts related to RAG pipelines, LLM prompt engineering, or even basic Python code. The numerous repetitions and nonsensical phrases severely impede any assessment of their communication skills.",
+            "evidence": [
+                "Don't know what I'm about to say this genie.",
+                "I'm really about to say this genie.",
+                "Don't know what I'm saying this genie.",
+                "Okay, uh, the mission will close and be so ready to close, click to your platform and  about 8.5",
+                "How the engine works, how to move, to ICO, to skidging length of 1.6 gram.",
+                "Are you sure?",
+                "I used dancer Trillon and being going to fire Trillon, wore consummate  such, and he wore that and being going to fire.",
+                "What's on your sub chain? And so that it helped some ordinary drinker, for the context from the local mix, I use what  Calcutta was horse-coming dead-eat-a, a-s-coulding-day-middings.",
+                "I could support them, but in fact, I use the credit of this, and I know. He is dead son.",
+                "Can you please you go back or shall I?",
+                "I will see you soon, and we will come as the descendant of the world.",
+                "You find the baby and the children of the pre-priori, as the pre-priori wants to be scared of more."
+            ]
+        }
+    },
+    "created_at": "2026-11-04 23:27:49.153979",
+    "updated_at": "2026-11-04 23:37:53.464491"
+}

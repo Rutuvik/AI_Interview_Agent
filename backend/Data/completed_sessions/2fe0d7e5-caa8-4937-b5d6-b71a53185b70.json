@@ -1,0 +1,976 @@
+{
+    "id": "2fe0d7e5-caa8-4937-b5d6-b71a53185b70",
+    "candidate_name": "Rutvik",
+    "status": "completed",
+    "state_data": {
+        "session_id": "2fe0d7e5-caa8-4937-b5d6-b71a53185b70",
+        "candidate_name": "Rutvik",
+        "candidate_profile": "Recent B.Tech graduate in Computer Technology with hands-on experience as an AI Engineer Intern.\n\nExperience:\n- Developed LLM-powered applications using LangChain and LangGraph.\n- Built advanced RAG systems using hybrid retrieval, BM25, vector search, reranking, and embeddings.\n- Worked with FastAPI to build and integrate AI backends.\n- Developed AI voice agents and workflow automation using n8n and VAPI.\n- Worked with HuggingFace, ChromaDB, FAISS, and various LLM APIs.\n- Implemented AI-powered chatbots and document question-answering systems.\n- Experience in model evaluation, prompt engineering, and debugging AI applications.\n\nSkills:\nPython, Machine Learning, Deep Learning, NLP, Transformers, Generative AI, LLMs, RAG, LangChain, LangGraph, FastAPI, SQL, Vector Databases, Prompt Engineering, REST APIs.",
+        "job_description": "AI Engineer\n\nWe are looking for an AI Engineer with experience in Python, Machine Learning, Deep Learning, Generative AI, and Large Language Models (LLMs).\n\nResponsibilities:\n- Develop and deploy AI/ML models using Python.\n- Build LLM-powered applications using LangChain and LangGraph.\n- Implement Retrieval-Augmented Generation (RAG) pipelines.\n- Integrate AI models with REST APIs using FastAPI.\n- Work with vector databases such as FAISS, ChromaDB, and Pinecone.\n- Perform data preprocessing, model evaluation, and optimization.\n- Develop AI agents and automated workflows.\n- Implement prompt engineering and structured output generation.\n- Debug, test, and optimize AI applications.\n\nRequirements:\n- Strong Python programming skills.\n- Understanding of ML, DL, NLP, and Transformers.\n- Practical experience with LLMs, embeddings, and RAG.\n- Knowledge of API development and integration.\n- Understanding of model evaluation metrics and AI system reliability.\n- Familiarity with Git, databases, and deployment.\n\nThe candidate should demonstrate strong technical fundamentals, problem-solving ability, and practical AI engineering knowledge.",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Deep Learning",
+            "NLP",
+            "LLMs",
+            "RAG",
+            "LangChain",
+            "LangGraph",
+            "FastAPI",
+            "SQL",
+            "Vector Databases",
+            "Prompt Engineering",
+            "REST APIs",
+            "AI Agents"
+        ],
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation. Provide an example of a prompt used for a specific AI agent task.",
+                "skill": "Prompt Engineering",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Understanding of prompt engineering concepts",
+                    "Effect on structured output generation",
+                    "Example of a prompt in context"
+                ],
+                "evaluation_criteria": [
+                    "Explanation of prompt engineering concepts",
+                    "Example of a prompt used in a specific AI task",
+                    "Impact on structured output generation"
+                ]
+            },
+            {
+                "question": "How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system? Provide a brief implementation outline using Python.",
+                "skill": "Vector Databases",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Integration of vector database",
+                    "Improvement of text retrieval performance",
+                    "Implementation outline in Python"
+                ],
+                "evaluation_criteria": [
+                    "Outline of integration steps",
+                    "Explanation of how vector database improves performance",
+                    "Example code or pseudo-code implementation"
+                ]
+            },
+            {
+                "question": "Design a REST API using FastAPI that interacts with a large language model (LLM) for generating responses. Discuss the architecture, data flow, and security considerations in your design.",
+                "skill": "REST APIs",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Architecture of the API",
+                    "Data flow through the API",
+                    "Security considerations"
+                ],
+                "evaluation_criteria": [
+                    "Description of API architecture",
+                    "Data flow description",
+                    "Security measures discussed"
+                ]
+            },
+            {
+                "question": "You have a dataset with text data and embeddings. How would you preprocess the text data and embeddings to optimize the training of a deep learning model? Provide a step-by-step approach.",
+                "skill": "Data Preprocessing",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Preprocessing steps for text data",
+                    "Preprocessing steps for embeddings",
+                    "Optimization techniques for deep learning models"
+                ],
+                "evaluation_criteria": [
+                    "Description of text data preprocessing",
+                    "Description of embeddings preprocessing",
+                    "Explanation of optimization techniques"
+                ]
+            },
+            {
+                "question": "How would you evaluate the performance of a language model that generates text? Discuss at least three metrics and their significance. Provide a Python code snippet to illustrate one of these metrics if possible.",
+                "skill": "Model Evaluation",
+                "difficulty": "medium",
+                "expected_answer_points": [
+                    "Metrics for language model evaluation",
+                    "Significance of each metric",
+                    "Python code snippet (optional)"
+                ],
+                "evaluation_criteria": [
+                    "List of at least three metrics",
+                    "Explanation of significance of each metric",
+                    "Example code snippet (optional)"
+                ]
+            }
+        ],
+        "current_question_index": 5,
+        "max_questions": 5,
+        "current_question": null,
+        "candidate_answer": "Main question: How would you evaluate the performance of a language model that generates text? Discuss at least three metrics and their significance. Provide a Python code snippet to illustrate one of these metrics if possible.\nCandidate answer: I don't want to share any information with you.\n\nFollow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?\nCandidate response: I was delayed the last day to sit in the small desert by using chunks.\n\nFollow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?\nCandidate response: I like that I will use an enchanted model after that I will come up with it in the right form.  So that it will be done in buildings, and it will be stored after it is done.",
+        "current_evaluation": {
+            "evaluation": {
+                "technical_correctness": {
+                    "score": 3,
+                    "justification": "The candidate did not provide any technical details or code snippets related to the metrics for evaluating language models.",
+                    "evidence": [
+                        "Main question: How would you evaluate the performance of a language model that generates text?",
+                        "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                        "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                        "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                        "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                    ]
+                },
+                "conceptual_understanding": {
+                    "score": 3,
+                    "justification": "The candidate did not explain or provide examples of any metrics for evaluating language models, nor did they discuss their significance.",
+                    "evidence": [
+                        "Main question: How would you evaluate the performance of a language model that generates text?",
+                        "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                        "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                        "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                        "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                    ]
+                },
+                "completeness": {
+                    "score": 4,
+                    "justification": "Completeness calculated from deterministic expected-point coverage.",
+                    "evidence": [
+                        "Main question: How would you evaluate the performance of a language model that generates text?",
+                        "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                        "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                        "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                        "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                    ]
+                },
+                "expected_point_evaluations": [
+                    {
+                        "expected_point": "Metrics for language model evaluation",
+                        "status": "covered",
+                        "evidence": [
+                            "Main question: How would you evaluate the performance of a language model that generates text?",
+                            "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                            "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                        ],
+                        "explanation": "Deterministic rubric matching identified covered coverage."
+                    },
+                    {
+                        "expected_point": "Significance of each metric",
+                        "status": "partially_covered",
+                        "evidence": [],
+                        "explanation": "Deterministic rubric matching identified partially covered coverage."
+                    },
+                    {
+                        "expected_point": "Python code snippet (optional)",
+                        "status": "covered",
+                        "evidence": [
+                            "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                            "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                        ],
+                        "explanation": "Deterministic rubric matching identified covered coverage."
+                    }
+                ],
+                "strengths": [],
+                "weaknesses": [
+                    "The candidate did not address any of the metrics for evaluating language models, including perplexity, BLEU score, or other common metrics.",
+                    "The candidate did not provide any code snippets or explanations for how to calculate or interpret any of the metrics.",
+                    "The candidate's responses were not clear or coherent, which may indicate a lack of understanding of the metrics and their application."
+                ],
+                "missing_concepts": [],
+                "incorrect_claims": [],
+                "suggested_improvements": [
+                    "The candidate should provide a clear explanation and examples of at least one metric for evaluating language models.",
+                    "The candidate should provide a Python code snippet to demonstrate how to calculate one of the metrics.",
+                    "The candidate should ensure their responses are clear and coherent, possibly by reviewing the definitions and applications of the metrics."
+                ]
+            },
+            "overall_score": 3.33
+        },
+        "conversation_history": [
+            {
+                "role": "interviewer",
+                "content": "Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation. Provide an example of a prompt used for a specific AI agent task.",
+                "question_index": 0
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation. Provide an example of a prompt used for a specific AI agent task.\nCandidate answer: This looks like mix-up and you are going to try and you are going to try to play my role  I'm having a plan to play the role that I will play just to bother."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 4,
+                            "justification": "The candidate's answer did not cover the role of prompt engineering, its impact on structured output generation, or provide an example of a prompt. The candidate's response was irrelevant to the question.",
+                            "evidence": [
+                                "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                                "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                                "Provide an example of a prompt used for a specific AI agent task."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 4,
+                            "justification": "The candidate did not provide any explanation of prompt engineering concepts, the effect on structured output generation, or a specific prompt example. The candidate's response was not relevant to the question and was not accurate.",
+                            "evidence": [
+                                "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                                "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                                "Provide an example of a prompt used for a specific AI agent task."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 5,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                                "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                                "Provide an example of a prompt used for a specific AI agent task."
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Understanding of prompt engineering concepts",
+                                "status": "covered",
+                                "evidence": [
+                                    "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Effect on structured output generation",
+                                "status": "covered",
+                                "evidence": [
+                                    "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Example of a prompt in context",
+                                "status": "covered",
+                                "evidence": [
+                                    "Provide an example of a prompt used for a specific AI agent task."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "The candidate did not address the core question about prompt engineering, its impact on structured output generation, or provide a specific example of a prompt. The candidate's answer was completely unrelated to the prompt.",
+                            "The candidate's response did not demonstrate any understanding of the concepts related to prompt engineering, structured output generation, or AI agent tasks."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should focus on explaining the role of prompt engineering in AI agent development and how it impacts structured output generation. They should also provide an example of a specific prompt used in an AI task."
+                        ]
+                    },
+                    "overall_score": 4.33
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system? Provide a brief implementation outline using Python.",
+                "question_index": 1
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system? Provide a brief implementation outline using Python.\nCandidate answer: Can you feel the source of your image? Who is him?"
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 4,
+                            "justification": "The candidate's answer was not related to the technical question asked and did not provide any relevant information about integrating a vector database into an RAG pipeline. The candidate's answer focused on asking about a source of an image and who it is, which is unrelated to the technical requirements of the question.",
+                            "evidence": [
+                                "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                                "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                                "Provide a brief implementation outline using Python."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 4,
+                            "justification": "The candidate did not demonstrate any technical understanding of how to integrate a vector database into an RAG pipeline or how it could improve text retrieval performance. The candidate's answer was entirely off-topic and did not address the integration or implementation aspects as requested.",
+                            "evidence": [
+                                "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                                "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                                "Provide a brief implementation outline using Python."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 5,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                                "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                                "Provide a brief implementation outline using Python."
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Integration of vector database",
+                                "status": "covered",
+                                "evidence": [
+                                    "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Improvement of text retrieval performance",
+                                "status": "covered",
+                                "evidence": [
+                                    "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Implementation outline in Python",
+                                "status": "covered",
+                                "evidence": [
+                                    "Provide a brief implementation outline using Python."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": []
+                    },
+                    "overall_score": 4.33
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "Design a REST API using FastAPI that interacts with a large language model (LLM) for generating responses. Discuss the architecture, data flow, and security considerations in your design.",
+                "question_index": 2
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: Design a REST API using FastAPI that interacts with a large language model (LLM) for generating responses. Discuss the architecture, data flow, and security considerations in your design.\nCandidate answer: No.\n\nFollow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design. How would you handle errors and exceptions in this process?\nCandidate response: Stop, let me congo chance.\n\nFollow-up question: Explain how you would handle authentication and authorization for the API interactions with the LLM, and discuss the specific mechanisms you would use.\nCandidate response: Not just"
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 3,
+                            "justification": "The candidate did not provide a detailed design for the API architecture, data flow, or security considerations. They were asked to provide specific details but did not give any information on these points.",
+                            "evidence": [
+                                "Discuss the architecture, data flow, and security considerations in your design.",
+                                "Follow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design.",
+                                "Discuss the architecture, data flow, and security considerations in your design."
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 3,
+                            "justification": "The candidate did not demonstrate a clear understanding of the architecture, data flow, or security considerations as expected. They were expected to discuss these points in detail but did not provide any relevant information.",
+                            "evidence": [
+                                "Discuss the architecture, data flow, and security considerations in your design.",
+                                "Follow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design.",
+                                "Discuss the architecture, data flow, and security considerations in your design."
+                            ]
+                        },
+                        "completeness": {
+                            "score": 4,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Discuss the architecture, data flow, and security considerations in your design.",
+                                "Follow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design.",
+                                "Discuss the architecture, data flow, and security considerations in your design."
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Architecture of the API",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Data flow through the API",
+                                "status": "covered",
+                                "evidence": [
+                                    "Discuss the architecture, data flow, and security considerations in your design.",
+                                    "Follow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Security considerations",
+                                "status": "covered",
+                                "evidence": [
+                                    "Discuss the architecture, data flow, and security considerations in your design."
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "The candidate did not provide any architectural details, data flow descriptions, or security measures in their response.",
+                            "The candidate focused on the follow-up questions rather than the initial design task, indicating a lack of understanding of the full design task."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide a detailed architectural design, including endpoints and their functionalities. This should cover how the API will interact with the LLM.",
+                            "The candidate should explain the data flow from client request to LLM invocation and back to the client, providing specific details of what happens at each step.",
+                            "The candidate should discuss security measures in depth, including authentication, authorization, and encryption methods used."
+                        ]
+                    },
+                    "overall_score": 3.33
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "You have a dataset with text data and embeddings. How would you preprocess the text data and embeddings to optimize the training of a deep learning model? Provide a step-by-step approach.",
+                "question_index": 3
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: You have a dataset with text data and embeddings. How would you preprocess the text data and embeddings to optimize the training of a deep learning model? Provide a step-by-step approach.\nCandidate answer: Start the picnic on cushions."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 2,
+                            "justification": "The candidate's answer is entirely unrelated to the technical task at hand and does not provide any information about preprocessing text data or embeddings or optimization techniques for deep learning models.",
+                            "evidence": [
+                                "Main question: You have a dataset with text data and embeddings.",
+                                "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?",
+                                "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 2,
+                            "justification": "The candidate's answer does not demonstrate any understanding of the preprocessing steps for text data or embeddings, nor does it provide any information about optimization techniques for deep learning models. The candidate did not provide any relevant information about the dataset or the preprocessing steps.",
+                            "evidence": [
+                                "Main question: You have a dataset with text data and embeddings.",
+                                "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?",
+                                "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                            ]
+                        },
+                        "completeness": {
+                            "score": 3,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Main question: You have a dataset with text data and embeddings.",
+                                "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?",
+                                "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Preprocessing steps for text data",
+                                "status": "covered",
+                                "evidence": [
+                                    "Main question: You have a dataset with text data and embeddings.",
+                                    "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Preprocessing steps for embeddings",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Optimization techniques for deep learning models",
+                                "status": "partially_covered",
+                                "evidence": [
+                                    "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide a clear and step-by-step approach for preprocessing text data and embeddings to optimize the training of a deep learning model.",
+                            "The candidate should explain optimization techniques for deep learning models, such as using techniques like batch normalization, dropout, or using more sophisticated architectures.",
+                            "The candidate should discuss the importance of tokenization, normalization, and vectorization in text preprocessing and how it impacts the embeddings."
+                        ]
+                    },
+                    "overall_score": 2.33
+                }
+            },
+            {
+                "role": "interviewer",
+                "content": "How would you evaluate the performance of a language model that generates text? Discuss at least three metrics and their significance. Provide a Python code snippet to illustrate one of these metrics if possible.",
+                "question_index": 4
+            },
+            {
+                "role": "candidate",
+                "content": "Main question: How would you evaluate the performance of a language model that generates text? Discuss at least three metrics and their significance. Provide a Python code snippet to illustrate one of these metrics if possible.\nCandidate answer: I don't want to share any information with you.\n\nFollow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?\nCandidate response: I was delayed the last day to sit in the small desert by using chunks.\n\nFollow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?\nCandidate response: I like that I will use an enchanted model after that I will come up with it in the right form.  So that it will be done in buildings, and it will be stored after it is done."
+            },
+            {
+                "role": "evaluation",
+                "content": {
+                    "evaluation": {
+                        "technical_correctness": {
+                            "score": 3,
+                            "justification": "The candidate did not provide any technical details or code snippets related to the metrics for evaluating language models.",
+                            "evidence": [
+                                "Main question: How would you evaluate the performance of a language model that generates text?",
+                                "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                                "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                                "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                                "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                            ]
+                        },
+                        "conceptual_understanding": {
+                            "score": 3,
+                            "justification": "The candidate did not explain or provide examples of any metrics for evaluating language models, nor did they discuss their significance.",
+                            "evidence": [
+                                "Main question: How would you evaluate the performance of a language model that generates text?",
+                                "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                                "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                                "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                                "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                            ]
+                        },
+                        "completeness": {
+                            "score": 4,
+                            "justification": "Completeness calculated from deterministic expected-point coverage.",
+                            "evidence": [
+                                "Main question: How would you evaluate the performance of a language model that generates text?",
+                                "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                                "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                                "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                                "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                            ]
+                        },
+                        "expected_point_evaluations": [
+                            {
+                                "expected_point": "Metrics for language model evaluation",
+                                "status": "covered",
+                                "evidence": [
+                                    "Main question: How would you evaluate the performance of a language model that generates text?",
+                                    "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                                    "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            },
+                            {
+                                "expected_point": "Significance of each metric",
+                                "status": "partially_covered",
+                                "evidence": [],
+                                "explanation": "Deterministic rubric matching identified partially covered coverage."
+                            },
+                            {
+                                "expected_point": "Python code snippet (optional)",
+                                "status": "covered",
+                                "evidence": [
+                                    "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                                    "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                                ],
+                                "explanation": "Deterministic rubric matching identified covered coverage."
+                            }
+                        ],
+                        "strengths": [],
+                        "weaknesses": [
+                            "The candidate did not address any of the metrics for evaluating language models, including perplexity, BLEU score, or other common metrics.",
+                            "The candidate did not provide any code snippets or explanations for how to calculate or interpret any of the metrics.",
+                            "The candidate's responses were not clear or coherent, which may indicate a lack of understanding of the metrics and their application."
+                        ],
+                        "missing_concepts": [],
+                        "incorrect_claims": [],
+                        "suggested_improvements": [
+                            "The candidate should provide a clear explanation and examples of at least one metric for evaluating language models.",
+                            "The candidate should provide a Python code snippet to demonstrate how to calculate one of the metrics.",
+                            "The candidate should ensure their responses are clear and coherent, possibly by reviewing the definitions and applications of the metrics."
+                        ]
+                    },
+                    "overall_score": 3.33
+                }
+            }
+        ],
+        "answers": [
+            {
+                "question": "Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation. Provide an example of a prompt used for a specific AI agent task.",
+                "answer": "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation. Provide an example of a prompt used for a specific AI agent task.\nCandidate answer: This looks like mix-up and you are going to try and you are going to try to play my role  I'm having a plan to play the role that I will play just to bother.",
+                "question_index": 0
+            },
+            {
+                "question": "How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system? Provide a brief implementation outline using Python.",
+                "answer": "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system? Provide a brief implementation outline using Python.\nCandidate answer: Can you feel the source of your image? Who is him?",
+                "question_index": 1
+            },
+            {
+                "question": "Design a REST API using FastAPI that interacts with a large language model (LLM) for generating responses. Discuss the architecture, data flow, and security considerations in your design.",
+                "answer": "Main question: Design a REST API using FastAPI that interacts with a large language model (LLM) for generating responses. Discuss the architecture, data flow, and security considerations in your design.\nCandidate answer: No.\n\nFollow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design. How would you handle errors and exceptions in this process?\nCandidate response: Stop, let me congo chance.\n\nFollow-up question: Explain how you would handle authentication and authorization for the API interactions with the LLM, and discuss the specific mechanisms you would use.\nCandidate response: Not just",
+                "question_index": 2
+            },
+            {
+                "question": "You have a dataset with text data and embeddings. How would you preprocess the text data and embeddings to optimize the training of a deep learning model? Provide a step-by-step approach.",
+                "answer": "Main question: You have a dataset with text data and embeddings. How would you preprocess the text data and embeddings to optimize the training of a deep learning model? Provide a step-by-step approach.\nCandidate answer: Start the picnic on cushions.",
+                "question_index": 3
+            },
+            {
+                "question": "How would you evaluate the performance of a language model that generates text? Discuss at least three metrics and their significance. Provide a Python code snippet to illustrate one of these metrics if possible.",
+                "answer": "Main question: How would you evaluate the performance of a language model that generates text? Discuss at least three metrics and their significance. Provide a Python code snippet to illustrate one of these metrics if possible.\nCandidate answer: I don't want to share any information with you.\n\nFollow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?\nCandidate response: I was delayed the last day to sit in the small desert by using chunks.\n\nFollow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?\nCandidate response: I like that I will use an enchanted model after that I will come up with it in the right form.  So that it will be done in buildings, and it will be stored after it is done.",
+                "question_index": 4
+            }
+        ],
+        "evaluations": [
+            {
+                "question_index": 0,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 4,
+                        "justification": "The candidate's answer did not cover the role of prompt engineering, its impact on structured output generation, or provide an example of a prompt. The candidate's response was irrelevant to the question.",
+                        "evidence": [
+                            "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                            "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                            "Provide an example of a prompt used for a specific AI agent task."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 4,
+                        "justification": "The candidate did not provide any explanation of prompt engineering concepts, the effect on structured output generation, or a specific prompt example. The candidate's response was not relevant to the question and was not accurate.",
+                        "evidence": [
+                            "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                            "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                            "Provide an example of a prompt used for a specific AI agent task."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                            "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation.",
+                            "Provide an example of a prompt used for a specific AI agent task."
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Understanding of prompt engineering concepts",
+                            "status": "covered",
+                            "evidence": [
+                                "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Effect on structured output generation",
+                            "status": "covered",
+                            "evidence": [
+                                "Main question: Explain the role of prompt engineering in the development of AI agents and how it impacts the structured output generation."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Example of a prompt in context",
+                            "status": "covered",
+                            "evidence": [
+                                "Provide an example of a prompt used for a specific AI agent task."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "The candidate did not address the core question about prompt engineering, its impact on structured output generation, or provide a specific example of a prompt. The candidate's answer was completely unrelated to the prompt.",
+                        "The candidate's response did not demonstrate any understanding of the concepts related to prompt engineering, structured output generation, or AI agent tasks."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should focus on explaining the role of prompt engineering in AI agent development and how it impacts structured output generation. They should also provide an example of a specific prompt used in an AI task."
+                    ]
+                },
+                "overall_score": 4.33
+            },
+            {
+                "question_index": 1,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 4,
+                        "justification": "The candidate's answer was not related to the technical question asked and did not provide any relevant information about integrating a vector database into an RAG pipeline. The candidate's answer focused on asking about a source of an image and who it is, which is unrelated to the technical requirements of the question.",
+                        "evidence": [
+                            "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                            "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                            "Provide a brief implementation outline using Python."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 4,
+                        "justification": "The candidate did not demonstrate any technical understanding of how to integrate a vector database into an RAG pipeline or how it could improve text retrieval performance. The candidate's answer was entirely off-topic and did not address the integration or implementation aspects as requested.",
+                        "evidence": [
+                            "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                            "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                            "Provide a brief implementation outline using Python."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 5,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                            "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?",
+                            "Provide a brief implementation outline using Python."
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Integration of vector database",
+                            "status": "covered",
+                            "evidence": [
+                                "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Improvement of text retrieval performance",
+                            "status": "covered",
+                            "evidence": [
+                                "Main question: How would you integrate a vector database (e.g., FAISS) into an RAG pipeline to improve the performance of a text retrieval system?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Implementation outline in Python",
+                            "status": "covered",
+                            "evidence": [
+                                "Provide a brief implementation outline using Python."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": []
+                },
+                "overall_score": 4.33
+            },
+            {
+                "question_index": 2,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 3,
+                        "justification": "The candidate did not provide a detailed design for the API architecture, data flow, or security considerations. They were asked to provide specific details but did not give any information on these points.",
+                        "evidence": [
+                            "Discuss the architecture, data flow, and security considerations in your design.",
+                            "Follow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design.",
+                            "Discuss the architecture, data flow, and security considerations in your design."
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 3,
+                        "justification": "The candidate did not demonstrate a clear understanding of the architecture, data flow, or security considerations as expected. They were expected to discuss these points in detail but did not provide any relevant information.",
+                        "evidence": [
+                            "Discuss the architecture, data flow, and security considerations in your design.",
+                            "Follow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design.",
+                            "Discuss the architecture, data flow, and security considerations in your design."
+                        ]
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Discuss the architecture, data flow, and security considerations in your design.",
+                            "Follow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design.",
+                            "Discuss the architecture, data flow, and security considerations in your design."
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Architecture of the API",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Data flow through the API",
+                            "status": "covered",
+                            "evidence": [
+                                "Discuss the architecture, data flow, and security considerations in your design.",
+                                "Follow-up question: Explain the specific data flow from the client request to the LLM invocation and back to the client in your API design."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Security considerations",
+                            "status": "covered",
+                            "evidence": [
+                                "Discuss the architecture, data flow, and security considerations in your design."
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "The candidate did not provide any architectural details, data flow descriptions, or security measures in their response.",
+                        "The candidate focused on the follow-up questions rather than the initial design task, indicating a lack of understanding of the full design task."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide a detailed architectural design, including endpoints and their functionalities. This should cover how the API will interact with the LLM.",
+                        "The candidate should explain the data flow from client request to LLM invocation and back to the client, providing specific details of what happens at each step.",
+                        "The candidate should discuss security measures in depth, including authentication, authorization, and encryption methods used."
+                    ]
+                },
+                "overall_score": 3.33
+            },
+            {
+                "question_index": 3,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 2,
+                        "justification": "The candidate's answer is entirely unrelated to the technical task at hand and does not provide any information about preprocessing text data or embeddings or optimization techniques for deep learning models.",
+                        "evidence": [
+                            "Main question: You have a dataset with text data and embeddings.",
+                            "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?",
+                            "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 2,
+                        "justification": "The candidate's answer does not demonstrate any understanding of the preprocessing steps for text data or embeddings, nor does it provide any information about optimization techniques for deep learning models. The candidate did not provide any relevant information about the dataset or the preprocessing steps.",
+                        "evidence": [
+                            "Main question: You have a dataset with text data and embeddings.",
+                            "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?",
+                            "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                        ]
+                    },
+                    "completeness": {
+                        "score": 3,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Main question: You have a dataset with text data and embeddings.",
+                            "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?",
+                            "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Preprocessing steps for text data",
+                            "status": "covered",
+                            "evidence": [
+                                "Main question: You have a dataset with text data and embeddings.",
+                                "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Preprocessing steps for embeddings",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Optimization techniques for deep learning models",
+                            "status": "partially_covered",
+                            "evidence": [
+                                "How would you preprocess the text data and embeddings to optimize the training of a deep learning model?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide a clear and step-by-step approach for preprocessing text data and embeddings to optimize the training of a deep learning model.",
+                        "The candidate should explain optimization techniques for deep learning models, such as using techniques like batch normalization, dropout, or using more sophisticated architectures.",
+                        "The candidate should discuss the importance of tokenization, normalization, and vectorization in text preprocessing and how it impacts the embeddings."
+                    ]
+                },
+                "overall_score": 2.33
+            },
+            {
+                "question_index": 4,
+                "evaluation": {
+                    "technical_correctness": {
+                        "score": 3,
+                        "justification": "The candidate did not provide any technical details or code snippets related to the metrics for evaluating language models.",
+                        "evidence": [
+                            "Main question: How would you evaluate the performance of a language model that generates text?",
+                            "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                            "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                            "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                            "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                        ]
+                    },
+                    "conceptual_understanding": {
+                        "score": 3,
+                        "justification": "The candidate did not explain or provide examples of any metrics for evaluating language models, nor did they discuss their significance.",
+                        "evidence": [
+                            "Main question: How would you evaluate the performance of a language model that generates text?",
+                            "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                            "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                            "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                            "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                        ]
+                    },
+                    "completeness": {
+                        "score": 4,
+                        "justification": "Completeness calculated from deterministic expected-point coverage.",
+                        "evidence": [
+                            "Main question: How would you evaluate the performance of a language model that generates text?",
+                            "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                            "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?",
+                            "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                            "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                        ]
+                    },
+                    "expected_point_evaluations": [
+                        {
+                            "expected_point": "Metrics for language model evaluation",
+                            "status": "covered",
+                            "evidence": [
+                                "Main question: How would you evaluate the performance of a language model that generates text?",
+                                "Follow-up question: Can you provide more details on how you would evaluate the perplexity metric for a language model?",
+                                "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        },
+                        {
+                            "expected_point": "Significance of each metric",
+                            "status": "partially_covered",
+                            "evidence": [],
+                            "explanation": "Deterministic rubric matching identified partially covered coverage."
+                        },
+                        {
+                            "expected_point": "Python code snippet (optional)",
+                            "status": "covered",
+                            "evidence": [
+                                "Provide a Python code snippet to illustrate one of these metrics if possible.",
+                                "Follow-up question: Can you explain how you would calculate and interpret the perplexity metric for a language model and provide a Python code snippet to demonstrate its calculation?"
+                            ],
+                            "explanation": "Deterministic rubric matching identified covered coverage."
+                        }
+                    ],
+                    "strengths": [],
+                    "weaknesses": [
+                        "The candidate did not address any of the metrics for evaluating language models, including perplexity, BLEU score, or other common metrics.",
+                        "The candidate did not provide any code snippets or explanations for how to calculate or interpret any of the metrics.",
+                        "The candidate's responses were not clear or coherent, which may indicate a lack of understanding of the metrics and their application."
+                    ],
+                    "missing_concepts": [],
+                    "incorrect_claims": [],
+                    "suggested_improvements": [
+                        "The candidate should provide a clear explanation and examples of at least one metric for evaluating language models.",
+                        "The candidate should provide a Python code snippet to demonstrate how to calculate one of the metrics.",
+                        "The candidate should ensure their responses are clear and coherent, possibly by reviewing the definitions and applications of the metrics."
+                    ]
+                },
+                "overall_score": 3.33
+            }
+        ],
+        "interview_status": "completed",
+        "next_action": "finish",
+        "error_message": null
+    },
+    "created_at": "2026-11-04 12:04:12.928073",
+    "updated_at": "2026-11-04 12:12:05.923362"
+}
