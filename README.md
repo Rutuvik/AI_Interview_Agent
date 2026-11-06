@@ -25,30 +25,98 @@ It accepts a candidate profile, job description, required skills, and interview 
 - **Evidence-Based Feedback:** Identifies strengths, weaknesses, missing concepts, incorrect claims, answer evidence, and suggested improvements.
 - **Assessment Reports:** Provides overall and skill-wise results, knowledge gaps, and learning recommendations.
 
-## Project Structure
+## System Architecture
 
-```text
-AI_Interview_Agent/
-│
-├── backend/
-│   ├── app/
-│   ├── tests/
-│   ├── requirements.txt
-│   └── ...
-│
-├── frontend/
-│   ├── src/
-│   ├── package.json
-│   └── ...
-│
-├── docs/
-│
-├── demo/
-│   └── complete_interview_demo.mp4
-│
-├── README.md
-└── .gitignore
+The following diagram illustrates the architecture and interaction between the frontend, backend, real-time voice processing, AI workflow, evaluation engine, and database.
+
+```mermaid
+flowchart TB
+
+    USER["Candidate"]
+
+    subgraph FRONTEND["Frontend Layer"]
+        UI["React + TypeScript + Vite"]
+        CONFIG["Interview Configuration"]
+        RESULT["Assessment Report"]
+        UI --> CONFIG
+        RESULT --> UI
+    end
+
+    subgraph BACKEND["Backend Layer - FastAPI"]
+        API["FastAPI REST API"]
+        SERVICE["Interview Service"]
+        QG["Question Generator"]
+        BRIDGE["Interview Bridge"]
+        API --> SERVICE
+        SERVICE --> QG
+        SERVICE <--> BRIDGE
+    end
+
+    subgraph LIVEKIT["Real-Time Voice Layer"]
+        ROOM["LiveKit Room"]
+        AGENT["LiveKit Voice Agent"]
+        VAD["Silero VAD"]
+        STT["Whisper STT"]
+        LLM["Ollama LLM - gemma3:4b"]
+        TTS["Kokoro TTS"]
+
+        ROOM <--> AGENT
+        AGENT --> VAD
+        VAD --> STT
+        STT --> AGENT
+        AGENT <--> LLM
+        AGENT --> TTS
+        TTS --> AGENT
+    end
+
+    subgraph WORKFLOW["Workflow Orchestration - LangGraph"]
+        STATE["Interview State"]
+        EVAL["Answer Evaluation"]
+        VALID["Pydantic Output Validation"]
+        REPORT["Assessment Generation"]
+
+        STATE --> EVAL
+        EVAL --> VALID
+        VALID --> REPORT
+    end
+
+    subgraph STORAGE["Persistence Layer"]
+        ORM["SQLAlchemy"]
+        DB[("Configured Async Database")]
+        ORM --> DB
+    end
+
+    USER <--> UI
+    CONFIG -->|"Interview configuration"| API
+    API -->|"LiveKit connection credentials"| UI
+    UI <-->|"Audio session"| ROOM
+
+    BRIDGE <-->|"Context and candidate answers"| AGENT
+    SERVICE -->|"Questions and interview state"| STATE
+    STATE -->|"Interview data"| ORM
+    ORM -->|"Stored interview data"| SERVICE
+    REPORT -->|"Final assessment"| SERVICE
+    SERVICE --> API
+    API --> RESULT
 ```
+
+### Component Responsibilities
+
+| Component | Responsibility |
+|---|---|
+| React + TypeScript | Interview configuration and report interface |
+| FastAPI | API endpoints and backend coordination |
+| LiveKit | Real-time audio communication |
+| Silero VAD | Voice activity detection |
+| Whisper STT | Speech-to-text conversion |
+| Ollama | Local LLM inference |
+| Kokoro TTS | Text-to-speech conversion |
+| Interview Bridge | Communication between voice agent and interview backend |
+| LangGraph | Interview workflow orchestration |
+| Answer Evaluation | Candidate answer scoring and feedback |
+| Pydantic | Structured data validation |
+| SQLAlchemy | Database operations and persistence |
+| Database | Interview state and assessment data storage |
 ## Technology Stack
 
 | Layer | Technology |
